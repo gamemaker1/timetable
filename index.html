@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spring 2026 | Timetable</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = { darkMode: 'class' }
+    </script>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap"
       rel="stylesheet"
     />
     <link href="app.css" rel="stylesheet" />
   </head>
-  <body class="selection:bg-slate-100">
+  <body
+    class="bg-white text-slate-900 dark:bg-black dark:text-slate-100 selection:bg-slate-100 dark:selection:bg-slate-800 transition-colors duration-200"
+  >
     <div id="pageContent" class="max-w-[96%] mx-auto px-10 py-12">
       <header
         class="flex flex-col md:flex-row justify-between items-baseline mb-16 gap-6"
@@ -19,35 +24,44 @@
         <div class="flex items-baseline gap-10">
           <h1 class="text-xl font-medium tracking-tight">
             Spring
-            <span class="mono text-sm text-slate-500 font-normal">2026</span>
+            <span
+              class="mono text-sm text-slate-500 dark:text-slate-400 font-normal"
+              >2026</span
+            >
           </h1>
           <nav
             id="filters"
-            class="flex gap-6 border-l border-slate-200 pl-10"
+            class="flex gap-6 border-l border-slate-200 dark:border-slate-800 pl-10"
           ></nav>
         </div>
-        <div class="flex gap-6 nav-buttons">
+        <div class="flex gap-6 nav-buttons items-center">
+          <button
+            id="themeToggle"
+            class="text-[11px] uppercase tracking-widest text-slate-500 hover:text-black dark:hover:text-white font-bold mr-2"
+          >
+            Theme
+          </button>
           <button
             id="pdfBtn"
-            class="text-[11px] uppercase tracking-widest text-slate-600 hover:text-black font-semibold"
+            class="text-[11px] uppercase tracking-widest text-slate-600 dark:text-slate-400 hover:text-black dark:hover:text-white font-semibold"
           >
             PDF
           </button>
           <button
             id="exportBtn"
-            class="text-[11px] uppercase tracking-widest text-slate-600 hover:text-black font-semibold"
+            class="text-[11px] uppercase tracking-widest text-slate-600 dark:text-slate-400 hover:text-black dark:hover:text-white font-semibold"
           >
             Export
           </button>
           <button
             id="importBtn"
-            class="text-[11px] uppercase tracking-widest text-slate-600 hover:text-black font-semibold"
+            class="text-[11px] uppercase tracking-widest text-slate-600 dark:text-slate-400 hover:text-black dark:hover:text-white font-semibold"
           >
             Import
           </button>
           <button
             id="addFriendBtn"
-            class="text-[11px] uppercase tracking-widest text-slate-600 hover:text-black font-semibold"
+            class="text-[11px] uppercase tracking-widest text-slate-600 dark:text-slate-400 hover:text-black dark:hover:text-white font-semibold"
           >
             + Add Friend
           </button>
@@ -59,7 +73,10 @@
         <main class="no-scrollbar overflow-x-auto">
           <div id="timetableGrid" class="min-w-[1000px]">
             <div id="daysHeader" class="timetable-grid mb-6"></div>
-            <div id="timetableBody" class="border-t border-slate-200"></div>
+            <div
+              id="timetableBody"
+              class="border-t border-slate-200 dark:border-slate-800"
+            ></div>
           </div>
         </main>
         <aside

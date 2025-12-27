@@ -1,19 +1,27 @@
 import { STORAGE, COLORS, DAYS } from './constants.js'
 import { Templates } from './templates.js'
 
-class TimetableApp {
+class Timetable {
   constructor() {
     this.courses = []
     this.timeSlots = []
     this.friends = []
     this.currentFilter = 'all'
     this.activeSearchId = null
+    this.isDark = localStorage.getItem('theme') === 'dark'
   }
 
   async init() {
+    this.applyTheme()
     await this.loadData()
     this.setupEvents()
     this.render()
+  }
+
+  applyTheme() {
+    if (this.isDark) document.documentElement.classList.add('dark')
+    else document.documentElement.classList.remove('dark')
+    localStorage.setItem('theme', this.isDark ? 'dark' : 'light')
   }
 
   async loadData() {
@@ -27,7 +35,7 @@ class TimetableApp {
         slotIds: this.getOverlap(c.starts, c.ends),
       }))
     } catch (e) {
-      console.error('Data load error')
+      console.error('Error loading courses.json')
     }
 
     const saved = JSON.parse(localStorage.getItem(STORAGE))
@@ -60,9 +68,16 @@ class TimetableApp {
       }
     })
 
+    document.getElementById('themeToggle').onclick = () => {
+      this.isDark = !this.isDark
+      this.applyTheme()
+      this.render()
+    }
+
     document.getElementById('filters').onclick = (e) => {
-      if (e.target.dataset.filter) {
-        this.currentFilter = e.target.dataset.filter
+      const f = e.target.dataset.filter
+      if (f) {
+        this.currentFilter = f
         this.render()
       }
     }
@@ -72,7 +87,6 @@ class TimetableApp {
       e.stopPropagation()
       const id = parseInt(e.target.closest('.friend-container')?.dataset.id)
       if (!id) return
-
       if (e.target.closest('.action-search')) {
         this.activeSearchId = id
         this.render()
@@ -91,7 +105,7 @@ class TimetableApp {
 
     document.getElementById('addFriendBtn').onclick = () => this.addFriend()
     document.getElementById('exportBtn').onclick = () => this.export()
-    document.getElementById('pdfBtn').onclick = () => window.print()
+    document.getElementById('pdfBtn').onclick = () => this.print()
     document.getElementById('importBtn').onclick = () =>
       document.getElementById('importFile').click()
     document.getElementById('importFile').onchange = (e) => this.import(e)
@@ -107,7 +121,7 @@ class TimetableApp {
     results.innerHTML = matches
       .map(
         (c) =>
-          `<div class="search-result p-3 hover:bg-slate-50 cursor-pointer border-b text-[11px] flex justify-between" data-name="${c.name}"><span>${c.name}</span><span class="mono text-slate-400">${c.half || ''}</span></div>`,
+          `<div class="search-result p-3 hover:bg-slate-50 dark:hover:bg-slate-800 cursor-pointer border-b border-slate-100 dark:border-slate-800 text-[11px] flex justify-between" data-name="${c.name}"><span>${c.name}</span><span class="mono text-slate-400 dark:text-slate-500">${c.half || ''}</span></div>`,
       )
       .join('')
   }
@@ -158,35 +172,28 @@ class TimetableApp {
     document.getElementById('filters').innerHTML = Templates.filters(
       this.currentFilter,
     )
-
     document.getElementById('friendsList').innerHTML = this.friends
       .map((f) => {
-        const courses = f.courses
+        const objs = f.courses
           .map((name) => this.courses.find((c) => c.name === name))
           .filter(Boolean)
-        return Templates.friend(f, this.activeSearchId === f.id, courses)
+        return Templates.friend(f, this.activeSearchId === f.id, objs)
       })
       .join('')
-
     document.getElementById('daysHeader').innerHTML =
       '<div></div>' +
       DAYS.map(
         (d) =>
-          `<div class="text-center text-[10px] uppercase tracking-widest text-slate-500 font-semibold">${d}</div>`,
+          `<div class="text-center text-[10px] uppercase tracking-widest text-slate-500 dark:text-slate-400 font-semibold">${d}</div>`,
       ).join('')
-
     document.getElementById('timetableBody').innerHTML = this.timeSlots
       .map((slot) => {
-        const cells = DAYS.map((dayName) => {
+        const cells = DAYS.map((day) => {
           const map = new Map()
           this.friends.forEach((f) => {
             f.courses.forEach((cn) => {
               const c = this.courses.find((x) => x.name === cn)
-              if (
-                !c ||
-                !c.days.includes(dayName) ||
-                !c.slotIds.includes(slot.id)
-              )
+              if (!c || !c.days.includes(day) || !c.slotIds.includes(slot.id))
                 return
               if (
                 this.currentFilter !== 'all' &&
@@ -203,20 +210,21 @@ class TimetableApp {
         return Templates.gridRow(fmt(slot.starts), fmt(slot.ends), cells)
       })
       .join('')
-
     if (this.activeSearchId) document.querySelector('.search-input')?.focus()
   }
 
+  print() {
+    const originalTheme = this.isDark
+    this.isDark = false
+    this.applyTheme()
+    window.print()
+    this.isDark = originalTheme
+    this.applyTheme()
+  }
+
   export() {
-    const blob = new Blob(
-      [
-        JSON.stringify({
-          friends: this.friends,
-          exported: new Date().toISOString(),
-        }, undefined, '\t'),
-      ],
-      { type: 'application/json' },
-    )
+    const data = { friends: this.friends, exported: new Date().toISOString() }
+    const blob = new Blob([JSON.stringify(data)], { type: 'application/json' })
     const a = document.createElement('a')
     a.href = URL.createObjectURL(blob)
     a.download = `timetable.json`
@@ -235,5 +243,5 @@ class TimetableApp {
   }
 }
 
-const app = new TimetableApp()
+const app = new Timetable()
 app.init()

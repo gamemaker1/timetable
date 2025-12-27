@@ -1,7 +1,5 @@
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #ffffff;
-  color: #1a1a1a;
 }
 
 .mono {
@@ -27,26 +25,22 @@ body {
     size: landscape;
     margin: 1cm;
   }
-
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
   header,
-  nav,
+  .nav-buttons,
   #importFile,
   .action-edit,
   .action-delete,
-  .action-remove,
-  .action-change-color,
-  .nav-buttons {
+  .action-remove {
     display: none !important;
   }
-
   body {
     background: white !important;
-    padding: 0 !important;
+    color: black !important;
   }
-  main {
-    overflow: visible !important;
-  }
-
   #pageContent {
     max-width: 100% !important;
     padding: 0 !important;
@@ -54,22 +48,17 @@ body {
   #timetableGrid {
     min-width: 0 !important;
     width: 100% !important;
-    zoom: 0.85;
+    zoom: 0.8;
   }
   #friendsList {
+    display: grid !important;
     grid-template-columns: repeat(4, 1fr) !important;
     gap: 20px !important;
-    page-break-inside: avoid;
   }
-
-  .space-y-24 {
-    space-y: 12 !important;
-  }
-  .friend-container {
-    border-top: 1px solid #e2e8f0 !important;
-  }
-  * {
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
+  .border-t,
+  .border-b,
+  .border-l,
+  .border-r {
+    border-color: #e2e8f0 !important;
   }
 }
