@@ -1,11 +1,11 @@
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: #ffffff;
   color: #1a1a1a;
 }
 
 .mono {
-  font-family: "JetBrains Mono", monospace;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 .timetable-grid {

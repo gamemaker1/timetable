@@ -1,20 +1,20 @@
 const escape = (t) => {
-  const d = document.createElement("div")
+  const d = document.createElement('div')
   d.textContent = t
   return d.innerHTML
 }
 
 export const Templates = {
   filters: (current) =>
-    ["all", "h1", "h2"]
+    ['all', 'h1', 'h2']
       .map(
         (f) => `
-        <button data-filter="${f}" class="text-[11px] tracking-widest uppercase transition ${current === f ? "text-black font-bold" : "text-slate-600 hover:text-black"}">
-            ${f === "all" ? "ALL" : f + " ONLY"}
+        <button data-filter="${f}" class="text-[11px] tracking-widest uppercase transition ${current === f ? 'text-black font-bold' : 'text-slate-600 hover:text-black'}">
+            ${f === 'all' ? 'ALL' : f + ' ONLY'}
         </button>
     `,
       )
-      .join(""),
+      .join(''),
 
   friend: (friend, isOpen, courses) => `
         <div class="relative friend-container pt-4 border-t border-slate-100" data-id="${friend.id}">
@@ -35,7 +35,7 @@ export const Templates = {
                     <input type="text" class="search-input w-full p-4 text-[12px] focus:outline-none border-b" placeholder="Search course...">
                     <div class="search-results max-h-[200px] overflow-y-auto no-scrollbar"></div>
                 </div>`
-                : ""
+                : ''
             }
             <div class="mt-4 space-y-1.5">
                 ${courses
@@ -44,12 +44,12 @@ export const Templates = {
                     <div class="group flex justify-between items-baseline text-[11px] text-slate-700">
                         <div class="flex justify-between w-full min-w-0 pr-2">
                             <span class="truncate mr-2">${escape(c.name)}</span>
-                            ${c.half ? `<span class="mono text-slate-400 text-[9px] uppercase shrink-0">${c.half}</span>` : ""}
+                            ${c.half ? `<span class="mono text-slate-400 text-[9px] uppercase shrink-0">${c.half}</span>` : ''}
                         </div>
                         <button class="action-remove opacity-0 group-hover:opacity-100 text-red-600" data-name="${escape(c.name)}">✕</button>
                     </div>`,
                   )
-                  .join("")}
+                  .join('')}
             </div>
         </div>
     `,
@@ -80,17 +80,17 @@ export const Templates = {
                                  title="${escape(p.name)}"></div>
                         `,
                           )
-                          .join("")}
+                          .join('')}
                     </div>
                     <div class="flex-1 flex justify-between items-baseline min-w-0 overflow-hidden">
                         <span class="text-[11px] leading-tight truncate text-slate-800 font-medium mr-2">
                             ${escape(e.course.name)}
                         </span>
-                        ${e.course.half ? `<span class="mono text-slate-400 text-[9px] uppercase shrink-0">${e.course.half}</span>` : ""}
+                        ${e.course.half ? `<span class="mono text-slate-400 text-[9px] uppercase shrink-0">${e.course.half}</span>` : ''}
                     </div>
                 </div>`,
               )
-              .join("")}
+              .join('')}
         </div>
     `,
 }
