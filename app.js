@@ -213,7 +213,7 @@ class TimetableApp {
         JSON.stringify({
           friends: this.friends,
           exported: new Date().toISOString(),
-        }),
+        }, undefined, '\t'),
       ],
       { type: 'application/json' },
     )
