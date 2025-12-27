@@ -18,7 +18,7 @@ class TimetableApp {
 
   async loadData() {
     try {
-      const res = await fetch("/courses.json")
+      const res = await fetch("courses.json")
       const data = await res.json()
       this.timeSlots = data.slots || []
       this.courses = data.courses.map((c) => ({
