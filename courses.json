@@ -1,0 +1,1013 @@
+{
+  "slots": [
+    { "id": 1, "starts": "0830", "ends": "0955" },
+    { "id": 2, "starts": "1005", "ends": "1130" },
+    { "id": 3, "starts": "1140", "ends": "1305" },
+    { "id": 4, "starts": "1400", "ends": "1525" },
+    { "id": 5, "starts": "1535", "ends": "1700" },
+    { "id": 6, "starts": "1710", "ends": "1840" }
+  ],
+  "courses": [
+    {
+      "name": "Computer Systems Organization (Section A, B & C)",
+      "days": ["Monday", "Thursday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null
+    },
+    {
+      "name": "Introduction to Coding Theory",
+      "days": ["Monday", "Thursday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": 2
+    },
+    {
+      "name": "Optimization Methods",
+      "days": ["Monday", "Thursday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null
+    },
+    {
+      "name": "Making of Contemporary World",
+      "days": ["Monday", "Thursday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null
+    },
+    {
+      "name": "The Mathematics of Information: Theory & Application",
+      "days": ["Monday", "Thursday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": 1
+    },
+    {
+      "name": "CMOS Oscillator Design",
+      "days": ["Monday", "Thursday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null
+    },
+    {
+      "name": "Advanced Structural Analysis",
+      "days": ["Monday", "Thursday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null
+    },
+    {
+      "name": "Introduction to IoT (Section A & B)",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "General and Structural Chemistry",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Introduction to Linguistics II",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Analog Electronic Circuits",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Design and Analysis of Software Systems",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Mathematical Models in Biology",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Machine Learning for Natural Sciences",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Physics of Soft Condensed Matter",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Introduction to Particle Physics",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Communication Theory",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Molecular Biology",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Intro to Human Sciences (UG2 ECE/D, CLD, CGD & UG3 CND) (Sec A)",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null
+    },
+    {
+      "name": "Computing in Sciences II",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": 2
+    },
+    {
+      "name": "Introduction to Spatial Sciences & Technology",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": 2
+    },
+    {
+      "name": "Organic Chemistry",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": 2
+    },
+    {
+      "name": "Information & Communication",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null
+    },
+    {
+      "name": "Advanced Algorithms",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null
+    },
+    {
+      "name": "Foundations for Trustworthy Parallel Computing",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": 2
+    },
+    {
+      "name": "Speech Signal Processing",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null
+    },
+    {
+      "name": "Responsible & Safe AI Systems",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null
+    },
+    {
+      "name": "Behavioral Research: Statistical Methods",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null
+    },
+    {
+      "name": "Topics in Reinforcement Learning",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null
+    },
+    {
+      "name": "User Interaction and Usability of Digital Products",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null
+    },
+    {
+      "name": "Intro to Human Sciences (UG2 CSE/D) (Sec B)",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Science II (UG3 ECE/D, LED & CHD) (Sec B)",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Basics of Ethics (H1/H2)",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Differential Equations",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Learning and Memory",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Intro to Processor Architecture",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": 1
+    },
+    {
+      "name": "Art, Vision, & Feelings",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": 2
+    },
+    {
+      "name": "Computational Psycholinguistics",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Disaster Management",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Linear Partial Differential Equations and Variational Calculus",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Thermodynamics",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": 1
+    },
+    {
+      "name": "Topics in Discrete Mathematics",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Statistical Methods in AI",
+      "days": ["Monday", "Thursday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null
+    },
+    {
+      "name": "Introduction to Information Security",
+      "days": ["Monday", "Thursday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": 1
+    },
+    {
+      "name": "Digital Signal Analysis",
+      "days": ["Monday", "Thursday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": 2
+    },
+    {
+      "name": "Applications of Language Models",
+      "days": ["Monday", "Thursday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null
+    },
+    {
+      "name": "Robotics: Planning and Navigation",
+      "days": ["Monday", "Thursday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null
+    },
+    {
+      "name": "Law, Technology and Digital Governance",
+      "days": ["Monday", "Thursday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null
+    },
+    {
+      "name": "Flexible Electronics",
+      "days": ["Monday", "Thursday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null
+    },
+    {
+      "name": "Growth and Development",
+      "days": ["Monday", "Thursday"],
+      "starts": "1710",
+      "ends": "1835",
+      "half": null
+    },
+    {
+      "name": "Critical Viewing and Reading",
+      "days": ["Monday", "Thursday"],
+      "starts": "1710",
+      "ends": "1835",
+      "half": null
+    },
+    {
+      "name": "Data Structures and Algorithms (Section A, B & C)",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null
+    },
+    {
+      "name": "Introduction to Quantum Information and Computation",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": 1
+    },
+    {
+      "name": "Introduction to Algorithms Engineering",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": 2
+    },
+    {
+      "name": "Research Methods in Human Sciences",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null
+    },
+    {
+      "name": "Intro to VLSI and Embedded Systems",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": 1
+    },
+    {
+      "name": "Introduction to Statistical Signal Processing",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": 2
+    },
+    {
+      "name": "Molecular Modeling and Simulations",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null
+    },
+    {
+      "name": "Mathematical Methods in Sciences",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null
+    },
+    {
+      "name": "The Universe Across Scales",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null
+    },
+    {
+      "name": "Molecular Symmetry and Quantum Mechanics",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null
+    },
+    {
+      "name": "Product Lifecycle Management",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null
+    },
+    {
+      "name": "Topics in Physics",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null
+    },
+    {
+      "name": "Classical Mechanics",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": 1
+    },
+    {
+      "name": "Electrodynamics",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": 2
+    },
+    {
+      "name": "Biomolecular Structures",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": 1
+    },
+    {
+      "name": "Introduction to Brain and Cognition",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": 2
+    },
+    {
+      "name": "Data Systems",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Computational Linguistics I",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Spatial Data Sciences",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Science, Technology and Society",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "TKHS-I",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Performance Modeling of Computer Systems",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": 1
+    },
+    {
+      "name": "Statistical Mechanics",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": 2
+    },
+    {
+      "name": "Introduction to Game Theory",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Quantum Algorithms",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Analog IC Design",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Cognitive Neuroscience",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Computing Tools",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Earthquake Engineering",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Instrumentation and Devices",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Engineering Virtual Reality Systems (H)",
+      "days": ["Tuesday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Linear Algebra (Section A, B & C)",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null
+    },
+    {
+      "name": "Language Typology and Universals",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null
+    },
+    {
+      "name": "Linguistic Data 3: Data Modeling in ILs",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": 1
+    },
+    {
+      "name": "Numerical Algorithms",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": 1
+    },
+    {
+      "name": "Geospatial for Sustainable Development",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null
+    },
+    {
+      "name": "Language and Power",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": 1
+    },
+    {
+      "name": "Ethics and the Digital Society",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": 1
+    },
+    {
+      "name": "AI and Human Rights",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": 1
+    },
+    {
+      "name": "Literature and the Ethics of telling a Story",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": 2
+    },
+    {
+      "name": "Ethics in Research",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": 2
+    },
+    {
+      "name": "Constitutional Ethics",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": 2
+    },
+    {
+      "name": "Evaluation Methods for NLP",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": 2
+    },
+    {
+      "name": "Continuous Variable Quantum Information Theory and Computation",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null
+    },
+    {
+      "name": "Analysis and Design of Bridge Infrastructure",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null
+    },
+    {
+      "name": "Science II (UG2 CSE/D, UG3 CLD) (Sec A)",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Distributed Systems",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Information-Theoretic Methods in Computer Science",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Hydro Informatics & Climate Sciences",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Cognitive Science and AI",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Mathematics for Finance",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Optical Remote Sensing",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Topics in SSMT",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Machine Learning for Communication",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Intro to Robotics: Perception and Planning",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": 1
+    },
+    {
+      "name": "Foundations of RF and Microwave Sensors",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": 2
+    },
+    {
+      "name": "NGS Data Analysis",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Compilers",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Technology Product Entrepreneurship",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Analysis & Design of Precast and Prestressed Structures",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null
+    },
+    {
+      "name": "Software Programming for Performance",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": 1
+    },
+    {
+      "name": "Data Visualisation",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": 1
+    },
+    {
+      "name": "Readings in Russian Literature",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null
+    },
+    {
+      "name": "Music Language Creativity",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null
+    },
+    {
+      "name": "The Digital City",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null
+    },
+    {
+      "name": "Introduction to Philosophy of Technology",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null
+    },
+    {
+      "name": "Sustainable Growth Strategy for Startup",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": 1
+    },
+    {
+      "name": "Knowing India Through Data",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": 2
+    },
+    {
+      "name": "Theories and Practices of Nationalism",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null
+    },
+    {
+      "name": "System and Network Security",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null
+    },
+    {
+      "name": "Principles of Information Security",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1710",
+      "ends": "1835",
+      "half": null
+    },
+    {
+      "name": "Intro to UAV Design",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1710",
+      "ends": "1835",
+      "half": null
+    },
+    {
+      "name": "Software Engineering",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1710",
+      "ends": "1835",
+      "half": null
+    },
+    {
+      "name": "Internals of Application Servers",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1710",
+      "ends": "1835",
+      "half": null
+    },
+    {
+      "name": "Introduction to Software Systems (H) (Section A & B)",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null
+    },
+    {
+      "name": "Computer Graphics",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": 2
+    },
+    {
+      "name": "Information Security Audit and Assurance",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null
+    },
+    {
+      "name": "Quantum aspects of Cryptography",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null
+    },
+    {
+      "name": "Introduction to NLP",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null
+    },
+    {
+      "name": "Machine, Data and Learning",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Computer Vision",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Mechatronics System Design",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Sociology of Platform Economies",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Digital Democracy and Data Governance in the European Union",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Gender, Culture and Representation",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Product Design Workshop",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null
+    },
+    {
+      "name": "Arts II (H1)",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": 1
+    },
+    {
+      "name": "Arts II (H2)",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": 2
+    },
+    {
+      "name": "Electronics Workshop II (Lab)",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "1000",
+      "ends": "1300",
+      "half": null
+    },
+    {
+      "name": "Value Education II (H)",
+      "days": ["Wednesday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null
+    },
+    {
+      "name": "Science Lab II (H)",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1700",
+      "half": null
+    },
+    {
+      "name": "Business Finance",
+      "days": ["Saturday"],
+      "starts": "1400",
+      "ends": "1700",
+      "half": null
+    }
+  ]
+}

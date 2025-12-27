@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spring 2026 | Timetable</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link href="app.css" rel="stylesheet" />
+  </head>
+  <body class="selection:bg-slate-100">
+    <div id="pageContent" class="max-w-[96%] mx-auto px-10 py-12">
+      <header
+        class="flex flex-col md:flex-row justify-between items-baseline mb-16 gap-6"
+      >
+        <div class="flex items-baseline gap-10">
+          <h1 class="text-xl font-medium tracking-tight">
+            Spring
+            <span class="mono text-sm text-slate-500 font-normal">2026</span>
+          </h1>
+          <nav
+            id="filters"
+            class="flex gap-6 border-l border-slate-200 pl-10"
+          ></nav>
+        </div>
+        <div class="flex gap-6 nav-buttons">
+          <button
+            id="pdfBtn"
+            class="text-[11px] uppercase tracking-widest text-slate-600 hover:text-black font-semibold"
+          >
+            PDF
+          </button>
+          <button
+            id="exportBtn"
+            class="text-[11px] uppercase tracking-widest text-slate-600 hover:text-black font-semibold"
+          >
+            Export
+          </button>
+          <button
+            id="importBtn"
+            class="text-[11px] uppercase tracking-widest text-slate-600 hover:text-black font-semibold"
+          >
+            Import
+          </button>
+          <button
+            id="addFriendBtn"
+            class="text-[11px] uppercase tracking-widest text-slate-600 hover:text-black font-semibold"
+          >
+            + Add Friend
+          </button>
+        </div>
+        <input type="file" id="importFile" accept=".json" class="hidden" />
+      </header>
+
+      <div class="space-y-24">
+        <main class="no-scrollbar overflow-x-auto">
+          <div id="timetableGrid" class="min-w-[1000px]">
+            <div id="daysHeader" class="timetable-grid mb-6"></div>
+            <div id="timetableBody" class="border-t border-slate-200"></div>
+          </div>
+        </main>
+        <aside
+          id="friendsList"
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12"
+        ></aside>
+      </div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

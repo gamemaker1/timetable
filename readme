@@ -1,0 +1,17 @@
+timetable
+=========
+
+this app allows you to import, export, and print your friend group's joint
+timetable. it is a simple static site that uses a json file as its data source.
+
+run the following commands to run the site locally at [http://localhost:8000]. 
+
+    git clone https://github.com/gamemaker1/timetable.git
+    cd timetable/
+    python -m http.server
+
+the list of courses you can select, their timings and other such details, are
+all stored in [courses.json].
+
+once you have stored your timetable, you can import/export the data as a json
+file so others can view it. you may also export it as a pdf.
