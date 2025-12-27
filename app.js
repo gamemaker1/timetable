@@ -158,9 +158,16 @@ class TimetableApp {
     document.getElementById("filters").innerHTML = Templates.filters(
       this.currentFilter,
     )
+
     document.getElementById("friendsList").innerHTML = this.friends
-      .map((f) => Templates.friend(f, this.activeSearchId === f.id))
+      .map((f) => {
+        const courses = f.courses
+          .map((name) => this.courses.find((c) => c.name === name))
+          .filter(Boolean)
+        return Templates.friend(f, this.activeSearchId === f.id, courses)
+      })
       .join("")
+
     document.getElementById("daysHeader").innerHTML =
       "<div></div>" +
       DAYS.map(

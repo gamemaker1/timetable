@@ -16,7 +16,7 @@ export const Templates = {
       )
       .join(""),
 
-  friend: (friend, isOpen) => `
+  friend: (friend, isOpen, courses) => `
         <div class="relative friend-container pt-4 border-t border-slate-100" data-id="${friend.id}">
             <div class="flex items-center justify-between group mb-2">
                 <div class="flex items-center gap-3">
@@ -38,12 +38,15 @@ export const Templates = {
                 : ""
             }
             <div class="mt-4 space-y-1.5">
-                ${friend.courses
+                ${courses
                   .map(
                     (c) => `
-                    <div class="group flex justify-between items-center text-[11px] text-slate-700">
-                        <span class="truncate pr-2">${escape(c)}</span>
-                        <button class="action-remove opacity-0 group-hover:opacity-100 text-red-600" data-name="${escape(c)}">✕</button>
+                    <div class="group flex justify-between items-baseline text-[11px] text-slate-700">
+                        <div class="flex justify-between w-full min-w-0 pr-2">
+                            <span class="truncate mr-2">${escape(c.name)}</span>
+                            ${c.half ? `<span class="mono text-slate-400 text-[9px] uppercase shrink-0">${c.half}</span>` : ""}
+                        </div>
+                        <button class="action-remove opacity-0 group-hover:opacity-100 text-red-600" data-name="${escape(c.name)}">✕</button>
                     </div>`,
                   )
                   .join("")}
@@ -79,10 +82,12 @@ export const Templates = {
                           )
                           .join("")}
                     </div>
-                    <span class="text-[11px] leading-tight truncate text-slate-800 font-medium">
-                        ${escape(e.course.name)}
-                        ${e.course.half ? `<span class="mono text-slate-400 text-[9px] ml-1 uppercase">${e.course.half}</span>` : ""}
-                    </span>
+                    <div class="flex-1 flex justify-between items-baseline min-w-0 overflow-hidden">
+                        <span class="text-[11px] leading-tight truncate text-slate-800 font-medium mr-2">
+                            ${escape(e.course.name)}
+                        </span>
+                        ${e.course.half ? `<span class="mono text-slate-400 text-[9px] uppercase shrink-0">${e.course.half}</span>` : ""}
+                    </div>
                 </div>`,
               )
               .join("")}
