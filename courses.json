@@ -9,1005 +9,1132 @@
   ],
   "courses": [
     {
-      "name": "Computer Systems Organization (Section A, B & C)",
+      "name": "The Mathematics of Information: Theory & Application",
       "days": ["Monday", "Thursday"],
       "starts": "0830",
       "ends": "0955",
-      "half": null
+      "half": 1,
+      "classroom": "H101"
     },
     {
       "name": "Introduction to Coding Theory",
       "days": ["Monday", "Thursday"],
       "starts": "0830",
       "ends": "0955",
-      "half": 2
+      "half": 2,
+      "classroom": "H101"
     },
     {
       "name": "Optimization Methods",
       "days": ["Monday", "Thursday"],
       "starts": "0830",
       "ends": "0955",
-      "half": null
+      "half": null,
+      "classroom": "H103"
     },
     {
       "name": "Making of Contemporary World",
       "days": ["Monday", "Thursday"],
       "starts": "0830",
       "ends": "0955",
-      "half": null
-    },
-    {
-      "name": "The Mathematics of Information: Theory & Application",
-      "days": ["Monday", "Thursday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": 1
+      "half": null,
+      "classroom": "H201"
     },
     {
       "name": "CMOS Oscillator Design",
       "days": ["Monday", "Thursday"],
       "starts": "0830",
       "ends": "0955",
-      "half": null
+      "half": null,
+      "classroom": "H301"
     },
     {
       "name": "Advanced Structural Analysis",
       "days": ["Monday", "Thursday"],
       "starts": "0830",
       "ends": "0955",
-      "half": null
+      "half": null,
+      "classroom": "H302"
     },
     {
-      "name": "Introduction to IoT (Section A & B)",
+      "name": "Computer Systems Organization (Section A & B)",
       "days": ["Monday", "Thursday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null
+      "starts": "0830",
+      "ends": "0955",
+      "half": null,
+      "classroom": "SH1 & SH2"
     },
     {
       "name": "General and Structural Chemistry",
       "days": ["Monday", "Thursday"],
       "starts": "1005",
       "ends": "1130",
-      "half": null
+      "half": null,
+      "classroom": "H101"
     },
     {
       "name": "Introduction to Linguistics II",
       "days": ["Monday", "Thursday"],
       "starts": "1005",
       "ends": "1130",
-      "half": null
-    },
-    {
-      "name": "Analog Electronic Circuits",
-      "days": ["Monday", "Thursday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null
-    },
-    {
-      "name": "Design and Analysis of Software Systems",
-      "days": ["Monday", "Thursday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null
+      "half": null,
+      "classroom": "H102"
     },
     {
       "name": "Mathematical Models in Biology",
       "days": ["Monday", "Thursday"],
       "starts": "1005",
       "ends": "1130",
-      "half": null
+      "half": null,
+      "classroom": "H103"
     },
     {
-      "name": "Machine Learning for Natural Sciences",
+      "name": "Design and Analysis of Software Systems",
       "days": ["Monday", "Thursday"],
       "starts": "1005",
       "ends": "1130",
-      "half": null
-    },
-    {
-      "name": "Physics of Soft Condensed Matter",
-      "days": ["Monday", "Thursday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null
-    },
-    {
-      "name": "Introduction to Particle Physics",
-      "days": ["Monday", "Thursday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null
-    },
-    {
-      "name": "Communication Theory",
-      "days": ["Monday", "Thursday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null
+      "half": null,
+      "classroom": "H105"
     },
     {
       "name": "Molecular Biology",
       "days": ["Monday", "Thursday"],
       "starts": "1005",
       "ends": "1130",
-      "half": null
+      "half": null,
+      "classroom": "H201"
     },
     {
-      "name": "Intro to Human Sciences (UG2 ECE/D, CLD, CGD & UG3 CND) (Sec A)",
+      "name": "Machine Learning for Natural Sciences",
       "days": ["Monday", "Thursday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": null
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": "H202"
+    },
+    {
+      "name": "Earthquake Engineering",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": "H203"
+    },
+    {
+      "name": "Introduction to IoT",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": "H205"
+    },
+    {
+      "name": "Physics of Soft Condensed Matter",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": "H301"
+    },
+    {
+      "name": "Introduction to Particle Physics",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": "H302"
+    },
+    {
+      "name": "Analog Electronic Circuits",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": "SH2"
+    },
+    {
+      "name": "Communication Theory",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": "SH3"
     },
     {
       "name": "Computing in Sciences II",
       "days": ["Monday", "Thursday"],
       "starts": "1140",
       "ends": "1305",
-      "half": 2
+      "half": 2,
+      "classroom": "H101"
     },
     {
       "name": "Introduction to Spatial Sciences & Technology",
       "days": ["Monday", "Thursday"],
       "starts": "1140",
       "ends": "1305",
-      "half": 2
-    },
-    {
-      "name": "Organic Chemistry",
-      "days": ["Monday", "Thursday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": 2
-    },
-    {
-      "name": "Information & Communication",
-      "days": ["Monday", "Thursday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": null
+      "half": 2,
+      "classroom": "H102"
     },
     {
       "name": "Advanced Algorithms",
       "days": ["Monday", "Thursday"],
       "starts": "1140",
       "ends": "1305",
-      "half": null
-    },
-    {
-      "name": "Foundations for Trustworthy Parallel Computing",
-      "days": ["Monday", "Thursday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": 2
-    },
-    {
-      "name": "Speech Signal Processing",
-      "days": ["Monday", "Thursday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": null
-    },
-    {
-      "name": "Responsible & Safe AI Systems",
-      "days": ["Monday", "Thursday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": null
-    },
-    {
-      "name": "Behavioral Research: Statistical Methods",
-      "days": ["Monday", "Thursday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": null
+      "half": null,
+      "classroom": "H103"
     },
     {
       "name": "Topics in Reinforcement Learning",
       "days": ["Monday", "Thursday"],
       "starts": "1140",
       "ends": "1305",
-      "half": null
+      "half": null,
+      "classroom": "H104"
+    },
+    {
+      "name": "Behavioral Research: Statistical Methods",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": "H105"
+    },
+    {
+      "name": "Organic Chemistry",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": 2,
+      "classroom": "H201"
     },
     {
       "name": "User Interaction and Usability of Digital Products",
       "days": ["Monday", "Thursday"],
       "starts": "1140",
       "ends": "1305",
-      "half": null
+      "half": null,
+      "classroom": "H203"
     },
     {
-      "name": "Intro to Human Sciences (UG2 CSE/D) (Sec B)",
+      "name": "Responsible & Safe AI Systems",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": "H204"
+    },
+    {
+      "name": "Intro to Human Sciences (UG2 ECE/D, CLD, CGD & UG3 CND) (Sec A)",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": "H205"
+    },
+    {
+      "name": "Foundations for Trustworthy Parallel Computing",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": 2,
+      "classroom": "H301"
+    },
+    {
+      "name": "Speech Signal Processing",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": "H302"
+    },
+    {
+      "name": "Information & Communication",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": "SH2"
+    },
+    {
+      "name": "Basics of Ethics",
       "days": ["Monday", "Thursday"],
       "starts": "1400",
       "ends": "1525",
-      "half": null
-    },
-    {
-      "name": "Science II (UG3 ECE/D, LED & CHD) (Sec B)",
-      "days": ["Monday", "Thursday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null
-    },
-    {
-      "name": "Basics of Ethics (H1/H2)",
-      "days": ["Monday", "Thursday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null
+      "half": null,
+      "classroom": "H101"
     },
     {
       "name": "Differential Equations",
       "days": ["Monday", "Thursday"],
       "starts": "1400",
       "ends": "1525",
-      "half": null
+      "half": null,
+      "classroom": "H102"
     },
     {
       "name": "Learning and Memory",
       "days": ["Monday", "Thursday"],
       "starts": "1400",
       "ends": "1525",
-      "half": null
-    },
-    {
-      "name": "Intro to Processor Architecture",
-      "days": ["Monday", "Thursday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": 1
-    },
-    {
-      "name": "Art, Vision, & Feelings",
-      "days": ["Monday", "Thursday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": 2
-    },
-    {
-      "name": "Computational Psycholinguistics",
-      "days": ["Monday", "Thursday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null
-    },
-    {
-      "name": "Disaster Management",
-      "days": ["Monday", "Thursday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null
-    },
-    {
-      "name": "Linear Partial Differential Equations and Variational Calculus",
-      "days": ["Monday", "Thursday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null
+      "half": null,
+      "classroom": "H103"
     },
     {
       "name": "Thermodynamics",
       "days": ["Monday", "Thursday"],
       "starts": "1400",
       "ends": "1525",
-      "half": 1
+      "half": 1,
+      "classroom": "H104"
+    },
+    {
+      "name": "Intro to Human Sciences (UG2 CSE/D) (Sec B)",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": "H105"
+    },
+    {
+      "name": "Art, Vision, & Feelings",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": 2,
+      "classroom": "H201"
+    },
+    {
+      "name": "Computational Psycholinguistics",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": "H202"
     },
     {
       "name": "Topics in Discrete Mathematics",
       "days": ["Monday", "Thursday"],
       "starts": "1400",
       "ends": "1525",
-      "half": null
+      "half": null,
+      "classroom": "H203"
     },
     {
-      "name": "Statistical Methods in AI",
+      "name": "Science II (UG3 ECE/D, LED & CHD) (Sec B)",
       "days": ["Monday", "Thursday"],
-      "starts": "1535",
-      "ends": "1700",
-      "half": null
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": "H205"
     },
     {
-      "name": "Introduction to Information Security",
+      "name": "Disaster Management",
       "days": ["Monday", "Thursday"],
-      "starts": "1535",
-      "ends": "1700",
-      "half": 1
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": "H301"
     },
     {
-      "name": "Digital Signal Analysis",
+      "name": "Linear Partial Differential Equations and Variational Calculus",
       "days": ["Monday", "Thursday"],
-      "starts": "1535",
-      "ends": "1700",
-      "half": 2
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": "H302"
+    },
+    {
+      "name": "Intro to Processor Architecture",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": 1,
+      "classroom": "SH2"
     },
     {
       "name": "Applications of Language Models",
       "days": ["Monday", "Thursday"],
       "starts": "1535",
       "ends": "1700",
-      "half": null
+      "half": null,
+      "classroom": "H101"
     },
     {
       "name": "Robotics: Planning and Navigation",
       "days": ["Monday", "Thursday"],
       "starts": "1535",
       "ends": "1700",
-      "half": null
+      "half": null,
+      "classroom": "H102"
+    },
+    {
+      "name": "Introduction to Information Security",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": 1,
+      "classroom": "H103"
+    },
+    {
+      "name": "Digital Signal Analysis",
+      "days": ["Monday", "Thursday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": 2,
+      "classroom": "H103"
+    },
+    {
+      "name": "Statistical Methods in AI",
+      "days": ["Monday", "Thursday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null,
+      "classroom": "H105"
     },
     {
       "name": "Law, Technology and Digital Governance",
       "days": ["Monday", "Thursday"],
       "starts": "1535",
       "ends": "1700",
-      "half": null
+      "half": null,
+      "classroom": "H201"
     },
     {
       "name": "Flexible Electronics",
       "days": ["Monday", "Thursday"],
       "starts": "1535",
       "ends": "1700",
-      "half": null
-    },
-    {
-      "name": "Growth and Development",
-      "days": ["Monday", "Thursday"],
-      "starts": "1710",
-      "ends": "1835",
-      "half": null
+      "half": null,
+      "classroom": "H202"
     },
     {
       "name": "Critical Viewing and Reading",
       "days": ["Monday", "Thursday"],
       "starts": "1710",
-      "ends": "1835",
-      "half": null
+      "ends": "1840",
+      "half": null,
+      "classroom": "H101"
     },
     {
-      "name": "Data Structures and Algorithms (Section A, B & C)",
-      "days": ["Tuesday", "Friday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": null
+      "name": "Growth and Development",
+      "days": ["Monday", "Thursday"],
+      "starts": "1710",
+      "ends": "1840",
+      "half": null,
+      "classroom": "H103"
     },
     {
       "name": "Introduction to Quantum Information and Computation",
       "days": ["Tuesday", "Friday"],
       "starts": "0830",
       "ends": "0955",
-      "half": 1
+      "half": 1,
+      "classroom": "H101"
     },
     {
       "name": "Introduction to Algorithms Engineering",
       "days": ["Tuesday", "Friday"],
       "starts": "0830",
       "ends": "0955",
-      "half": 2
+      "half": 2,
+      "classroom": "H101"
     },
     {
       "name": "Research Methods in Human Sciences",
       "days": ["Tuesday", "Friday"],
       "starts": "0830",
       "ends": "0955",
-      "half": null
+      "half": null,
+      "classroom": "H102"
     },
     {
       "name": "Intro to VLSI and Embedded Systems",
       "days": ["Tuesday", "Friday"],
       "starts": "0830",
       "ends": "0955",
-      "half": 1
+      "half": 1,
+      "classroom": "H103"
     },
     {
       "name": "Introduction to Statistical Signal Processing",
       "days": ["Tuesday", "Friday"],
       "starts": "0830",
       "ends": "0955",
-      "half": 2
-    },
-    {
-      "name": "Molecular Modeling and Simulations",
-      "days": ["Tuesday", "Friday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": null
-    },
-    {
-      "name": "Mathematical Methods in Sciences",
-      "days": ["Tuesday", "Friday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": null
-    },
-    {
-      "name": "The Universe Across Scales",
-      "days": ["Tuesday", "Friday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": null
-    },
-    {
-      "name": "Molecular Symmetry and Quantum Mechanics",
-      "days": ["Tuesday", "Friday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": null
-    },
-    {
-      "name": "Product Lifecycle Management",
-      "days": ["Tuesday", "Friday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": null
+      "half": 2,
+      "classroom": "H103"
     },
     {
       "name": "Topics in Physics",
       "days": ["Tuesday", "Friday"],
       "starts": "0830",
       "ends": "0955",
-      "half": null
+      "half": null,
+      "classroom": "H201"
     },
     {
-      "name": "Classical Mechanics",
+      "name": "Mathematical Methods in Sciences",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null,
+      "classroom": "H202"
+    },
+    {
+      "name": "The Universe Across Scales",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null,
+      "classroom": "H205"
+    },
+    {
+      "name": "Molecular Modeling and Simulations",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null,
+      "classroom": "H301"
+    },
+    {
+      "name": "Product Lifecycle Management",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null,
+      "classroom": "H302"
+    },
+    {
+      "name": "Data Structures and Algorithms (Section A, B & C)",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null,
+      "classroom": "SH1, SH2 & SH3"
+    },
+    {
+      "name": "Engineering Virtual Reality Systems",
       "days": ["Tuesday", "Friday"],
       "starts": "1005",
       "ends": "1130",
-      "half": 1
-    },
-    {
-      "name": "Electrodynamics",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": 2
-    },
-    {
-      "name": "Biomolecular Structures",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": 1
-    },
-    {
-      "name": "Introduction to Brain and Cognition",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": 2
-    },
-    {
-      "name": "Data Systems",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null
-    },
-    {
-      "name": "Computational Linguistics I",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null
-    },
-    {
-      "name": "Spatial Data Sciences",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null
-    },
-    {
-      "name": "Science, Technology and Society",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null
-    },
-    {
-      "name": "TKHS-I",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null
+      "half": null,
+      "classroom": "H101"
     },
     {
       "name": "Performance Modeling of Computer Systems",
       "days": ["Tuesday", "Friday"],
       "starts": "1005",
       "ends": "1130",
-      "half": 1
+      "half": 1,
+      "classroom": "H102"
     },
     {
       "name": "Statistical Mechanics",
       "days": ["Tuesday", "Friday"],
       "starts": "1005",
       "ends": "1130",
-      "half": 2
+      "half": 2,
+      "classroom": "H102"
+    },
+    {
+      "name": "Biomolecular Structures",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": 1,
+      "classroom": "H103"
+    },
+    {
+      "name": "Introduction to Brain and Cognition",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": 2,
+      "classroom": "H103"
     },
     {
       "name": "Introduction to Game Theory",
       "days": ["Tuesday", "Friday"],
       "starts": "1005",
       "ends": "1130",
-      "half": null
+      "half": null,
+      "classroom": "H104"
+    },
+    {
+      "name": "Data Systems",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": "H105"
+    },
+    {
+      "name": "Computational Linguistics 1",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": "H201"
+    },
+    {
+      "name": "Spatial Data Sciences",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": "H202"
     },
     {
       "name": "Quantum Algorithms",
       "days": ["Tuesday", "Friday"],
       "starts": "1005",
       "ends": "1130",
-      "half": null
+      "half": null,
+      "classroom": "H203"
     },
     {
       "name": "Analog IC Design",
       "days": ["Tuesday", "Friday"],
       "starts": "1005",
       "ends": "1130",
-      "half": null
+      "half": null,
+      "classroom": "H204"
+    },
+    {
+      "name": "Science, Technology and Society",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": "H301"
+    },
+    {
+      "name": "Thinking and Knowing in the Human Sciences I",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": "H302"
     },
     {
       "name": "Cognitive Neuroscience",
       "days": ["Tuesday", "Friday"],
       "starts": "1005",
       "ends": "1130",
-      "half": null
+      "half": null,
+      "classroom": "H303"
     },
     {
       "name": "Computing Tools",
       "days": ["Tuesday", "Friday"],
       "starts": "1005",
       "ends": "1130",
-      "half": null
-    },
-    {
-      "name": "Earthquake Engineering",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null
+      "half": null,
+      "classroom": "H304"
     },
     {
       "name": "Instrumentation and Devices",
       "days": ["Tuesday", "Friday"],
       "starts": "1005",
       "ends": "1130",
-      "half": null
+      "half": null,
+      "classroom": "B4-302"
     },
     {
-      "name": "Engineering Virtual Reality Systems (H)",
-      "days": ["Tuesday"],
+      "name": "Classical Mechanics",
+      "days": ["Tuesday", "Friday"],
       "starts": "1005",
       "ends": "1130",
-      "half": null
+      "half": 1,
+      "classroom": "CR1"
     },
     {
-      "name": "Linear Algebra (Section A, B & C)",
+      "name": "Electrodynamics",
       "days": ["Tuesday", "Friday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": null
+      "starts": "1005",
+      "ends": "1130",
+      "half": 2,
+      "classroom": "CR1"
     },
     {
       "name": "Language Typology and Universals",
       "days": ["Tuesday", "Friday"],
       "starts": "1140",
       "ends": "1305",
-      "half": null
+      "half": null,
+      "classroom": "H101"
     },
     {
       "name": "Linguistic Data 3: Data Modeling in ILs",
       "days": ["Tuesday", "Friday"],
       "starts": "1140",
       "ends": "1305",
-      "half": 1
+      "half": 1,
+      "classroom": "H102"
     },
     {
       "name": "Numerical Algorithms",
       "days": ["Tuesday", "Friday"],
       "starts": "1140",
       "ends": "1305",
-      "half": 1
-    },
-    {
-      "name": "Geospatial for Sustainable Development",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": null
+      "half": 1,
+      "classroom": "H103"
     },
     {
       "name": "Language and Power",
       "days": ["Tuesday", "Friday"],
       "starts": "1140",
       "ends": "1305",
-      "half": 1
+      "half": 1,
+      "classroom": "H104"
+    },
+    {
+      "name": "Geospatial for Sustainable Development",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": "H201"
     },
     {
       "name": "Ethics and the Digital Society",
       "days": ["Tuesday", "Friday"],
       "starts": "1140",
       "ends": "1305",
-      "half": 1
-    },
-    {
-      "name": "AI and Human Rights",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": 1
-    },
-    {
-      "name": "Literature and the Ethics of telling a Story",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": 2
-    },
-    {
-      "name": "Ethics in Research",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": 2
-    },
-    {
-      "name": "Constitutional Ethics",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": 2
+      "half": 1,
+      "classroom": "H203"
     },
     {
       "name": "Evaluation Methods for NLP",
       "days": ["Tuesday", "Friday"],
       "starts": "1140",
       "ends": "1305",
-      "half": 2
+      "half": 2,
+      "classroom": "H203"
     },
     {
-      "name": "Continuous Variable Quantum Information Theory and Computation",
+      "name": "AI and Human Rights",
       "days": ["Tuesday", "Friday"],
       "starts": "1140",
       "ends": "1305",
-      "half": null
+      "half": 1,
+      "classroom": "H204"
+    },
+    {
+      "name": "Literature and the Ethics of telling a Story",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": 2,
+      "classroom": "H204"
     },
     {
       "name": "Analysis and Design of Bridge Infrastructure",
       "days": ["Tuesday", "Friday"],
       "starts": "1140",
       "ends": "1305",
-      "half": null
+      "half": null,
+      "classroom": "H301"
     },
     {
-      "name": "Science II (UG2 CSE/D, UG3 CLD) (Sec A)",
+      "name": "Ethics in Research",
       "days": ["Tuesday", "Friday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null
+      "starts": "1140",
+      "ends": "1305",
+      "half": 2,
+      "classroom": "H303"
     },
     {
-      "name": "Distributed Systems",
+      "name": "Constitutional Ethics",
       "days": ["Tuesday", "Friday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null
+      "starts": "1140",
+      "ends": "1305",
+      "half": 2,
+      "classroom": "H304"
+    },
+    {
+      "name": "Linear Algebra (Section A, B & C)",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": "SH1, SH2 & SH3"
     },
     {
       "name": "Information-Theoretic Methods in Computer Science",
       "days": ["Tuesday", "Friday"],
       "starts": "1400",
       "ends": "1525",
-      "half": null
-    },
-    {
-      "name": "Hydro Informatics & Climate Sciences",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null
+      "half": null,
+      "classroom": "H101"
     },
     {
       "name": "Cognitive Science and AI",
       "days": ["Tuesday", "Friday"],
       "starts": "1400",
       "ends": "1525",
-      "half": null
-    },
-    {
-      "name": "Mathematics for Finance",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null
-    },
-    {
-      "name": "Optical Remote Sensing",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null
-    },
-    {
-      "name": "Topics in SSMT",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null
-    },
-    {
-      "name": "Machine Learning for Communication",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null
-    },
-    {
-      "name": "Intro to Robotics: Perception and Planning",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": 1
-    },
-    {
-      "name": "Foundations of RF and Microwave Sensors",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": 2
-    },
-    {
-      "name": "NGS Data Analysis",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null
+      "half": null,
+      "classroom": "H102"
     },
     {
       "name": "Compilers",
       "days": ["Tuesday", "Friday"],
       "starts": "1400",
       "ends": "1525",
-      "half": null
+      "half": null,
+      "classroom": "H103"
+    },
+    {
+      "name": "Hydro Informatics & Climate Sciences",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": "H104"
+    },
+    {
+      "name": "Science II (UG2 CSE/D, UG3 CLD) (Sec A)",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": "H105"
+    },
+    {
+      "name": "Mathematics for Finance",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": "H201"
     },
     {
       "name": "Technology Product Entrepreneurship",
       "days": ["Tuesday", "Friday"],
       "starts": "1400",
       "ends": "1525",
-      "half": null
+      "half": null,
+      "classroom": "H202"
+    },
+    {
+      "name": "Intro to Robotics: Perception and Planning",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": 1,
+      "classroom": "H203"
+    },
+    {
+      "name": "Foundations of RF and Microwave Sensors",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": 2,
+      "classroom": "H203"
+    },
+    {
+      "name": "Optical Remote Sensing",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": "H204"
+    },
+    {
+      "name": "Distributed Systems",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": "H205"
+    },
+    {
+      "name": "Topics in SSMT",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": "H301"
+    },
+    {
+      "name": "Machine Learning for Communication",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": "H302"
+    },
+    {
+      "name": "NGS Data Analysis",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": "H303"
     },
     {
       "name": "Analysis & Design of Precast and Prestressed Structures",
       "days": ["Tuesday", "Friday"],
       "starts": "1400",
       "ends": "1525",
-      "half": null
-    },
-    {
-      "name": "Software Programming for Performance",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1535",
-      "ends": "1700",
-      "half": 1
-    },
-    {
-      "name": "Data Visualisation",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1535",
-      "ends": "1700",
-      "half": 1
+      "half": null,
+      "classroom": "H304"
     },
     {
       "name": "Readings in Russian Literature",
       "days": ["Tuesday", "Friday"],
       "starts": "1535",
       "ends": "1700",
-      "half": null
-    },
-    {
-      "name": "Music Language Creativity",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1535",
-      "ends": "1700",
-      "half": null
+      "half": null,
+      "classroom": "H101"
     },
     {
       "name": "The Digital City",
       "days": ["Tuesday", "Friday"],
       "starts": "1535",
       "ends": "1700",
-      "half": null
+      "half": null,
+      "classroom": "H102"
+    },
+    {
+      "name": "Software Programming for Performance",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": 1,
+      "classroom": "H103"
     },
     {
       "name": "Introduction to Philosophy of Technology",
       "days": ["Tuesday", "Friday"],
       "starts": "1535",
       "ends": "1700",
-      "half": null
+      "half": null,
+      "classroom": "H104"
+    },
+    {
+      "name": "Data Visualisation",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": 1,
+      "classroom": "H105"
     },
     {
       "name": "Sustainable Growth Strategy for Startup",
       "days": ["Tuesday", "Friday"],
       "starts": "1535",
       "ends": "1700",
-      "half": 1
+      "half": 1,
+      "classroom": "H201"
     },
     {
       "name": "Knowing India Through Data",
       "days": ["Tuesday", "Friday"],
       "starts": "1535",
       "ends": "1700",
-      "half": 2
+      "half": 2,
+      "classroom": "H201"
     },
     {
       "name": "Theories and Practices of Nationalism",
       "days": ["Tuesday", "Friday"],
       "starts": "1535",
       "ends": "1700",
-      "half": null
+      "half": null,
+      "classroom": "H202"
     },
     {
       "name": "System and Network Security",
       "days": ["Tuesday", "Friday"],
       "starts": "1535",
       "ends": "1700",
-      "half": null
+      "half": null,
+      "classroom": "H205"
     },
     {
-      "name": "Principles of Information Security",
+      "name": "Music Language Creativity",
       "days": ["Tuesday", "Friday"],
-      "starts": "1710",
-      "ends": "1835",
-      "half": null
-    },
-    {
-      "name": "Intro to UAV Design",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1710",
-      "ends": "1835",
-      "half": null
-    },
-    {
-      "name": "Software Engineering",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1710",
-      "ends": "1835",
-      "half": null
+      "starts": "1535",
+      "ends": "1700",
+      "half": null,
+      "classroom": "N328"
     },
     {
       "name": "Internals of Application Servers",
       "days": ["Tuesday", "Friday"],
       "starts": "1710",
-      "ends": "1835",
-      "half": null
+      "ends": "1840",
+      "half": null,
+      "classroom": "H101"
     },
     {
-      "name": "Introduction to Software Systems (H) (Section A & B)",
-      "days": ["Wednesday", "Saturday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": null
+      "name": "Intro to UAV Design",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1710",
+      "ends": "1840",
+      "half": null,
+      "classroom": "H103"
+    },
+    {
+      "name": "Principles of Information Security",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1710",
+      "ends": "1840",
+      "half": null,
+      "classroom": "H105"
+    },
+    {
+      "name": "Software Engineering",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1710",
+      "ends": "1840",
+      "half": null,
+      "classroom": "H205"
     },
     {
       "name": "Computer Graphics",
       "days": ["Wednesday", "Saturday"],
       "starts": "0830",
       "ends": "0955",
-      "half": 2
-    },
-    {
-      "name": "Information Security Audit and Assurance",
-      "days": ["Wednesday", "Saturday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": null
+      "half": 2,
+      "classroom": "H101"
     },
     {
       "name": "Quantum aspects of Cryptography",
       "days": ["Wednesday", "Saturday"],
       "starts": "0830",
       "ends": "0955",
-      "half": null
+      "half": null,
+      "classroom": "H102"
+    },
+    {
+      "name": "Information Security Audit and Assurance",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null,
+      "classroom": "H103"
+    },
+    {
+      "name": "Molecular Symmetry and Quantum Mechanics",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null,
+      "classroom": "H104"
     },
     {
       "name": "Introduction to NLP",
       "days": ["Wednesday", "Saturday"],
       "starts": "0830",
       "ends": "0955",
-      "half": null
+      "half": null,
+      "classroom": "H105"
     },
     {
-      "name": "Machine, Data and Learning",
+      "name": "Introduction to Software Systems (A&B)",
       "days": ["Wednesday", "Saturday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null
-    },
-    {
-      "name": "Computer Vision",
-      "days": ["Wednesday", "Saturday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null
-    },
-    {
-      "name": "Mechatronics System Design",
-      "days": ["Wednesday", "Saturday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null
+      "starts": "0830",
+      "ends": "0955",
+      "half": null,
+      "classroom": "SH1 & SH2"
     },
     {
       "name": "Sociology of Platform Economies",
       "days": ["Wednesday", "Saturday"],
       "starts": "1005",
       "ends": "1130",
-      "half": null
+      "half": null,
+      "classroom": "H101"
     },
     {
       "name": "Digital Democracy and Data Governance in the European Union",
       "days": ["Wednesday", "Saturday"],
       "starts": "1005",
       "ends": "1130",
-      "half": null
+      "half": null,
+      "classroom": "H102"
+    },
+    {
+      "name": "Mechatronics System Design",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": "H103"
+    },
+    {
+      "name": "Machine, Data and Learning",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": "H105"
     },
     {
       "name": "Gender, Culture and Representation",
       "days": ["Wednesday", "Saturday"],
       "starts": "1005",
       "ends": "1130",
-      "half": null
+      "half": null,
+      "classroom": "H201"
     },
     {
       "name": "Product Design Workshop",
       "days": ["Wednesday", "Saturday"],
       "starts": "1005",
       "ends": "1130",
-      "half": null
+      "half": null,
+      "classroom": "H202"
+    },
+    {
+      "name": "Computer Vision",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": "H205"
     },
     {
       "name": "Arts II (H1)",
       "days": ["Wednesday", "Saturday"],
       "starts": "1005",
       "ends": "1130",
-      "half": 1
+      "half": 1,
+      "classroom": "Nilgiri Classrooms"
     },
     {
       "name": "Arts II (H2)",
       "days": ["Wednesday", "Saturday"],
       "starts": "1005",
       "ends": "1130",
-      "half": 2
-    },
-    {
-      "name": "Electronics Workshop II (Lab)",
-      "days": ["Wednesday", "Saturday"],
-      "starts": "1000",
-      "ends": "1300",
-      "half": null
+      "half": 2,
+      "classroom": "Nilgiri Classrooms"
     },
     {
       "name": "Value Education II (H)",
       "days": ["Wednesday"],
       "starts": "1140",
-      "ends": "1305",
-      "half": null
-    },
-    {
-      "name": "Science Lab II (H)",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1400",
-      "ends": "1700",
-      "half": null
+      "ends": "1340",
+      "half": null,
+      "classroom": null
     },
     {
       "name": "Business Finance",
       "days": ["Saturday"],
       "starts": "1400",
       "ends": "1700",
-      "half": null
+      "half": null,
+      "classroom": "H103"
+    },
+    {
+      "name": "Science Lab II (H)",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1400",
+      "ends": "1700",
+      "half": null,
+      "classroom": null
     }
   ]
 }
