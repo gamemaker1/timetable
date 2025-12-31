@@ -32,6 +32,7 @@ body {
   header,
   .nav-buttons,
   #importFile,
+  .action-add,
   .action-edit,
   .action-delete,
   .action-remove {
@@ -54,6 +55,16 @@ body {
     display: grid !important;
     grid-template-columns: repeat(4, 1fr) !important;
     gap: 20px !important;
+    break-before: page;
+    page-break-before: always;
+    margin-top: 20px !important;
+  }
+  .friend-container {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    border: 1px solid #e2e8f0;
+    padding: 10px;
+    border-radius: 8px;
   }
   .border-t,
   .border-b,

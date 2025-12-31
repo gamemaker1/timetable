@@ -33,6 +33,7 @@ class Timetable {
         ...c,
         half: c.half === 1 ? 'H1' : c.half === 2 ? 'H2' : null,
         slotIds: this.getOverlap(c.starts, c.ends),
+        classroom: c.classroom || null,
       }))
     } catch (e) {
       console.error('Error loading courses.json')
@@ -40,8 +41,10 @@ class Timetable {
 
     const saved = JSON.parse(localStorage.getItem(STORAGE))
     this.friends = saved?.friends || [
-      { id: 1, name: 'You', courses: [], color: COLORS[0] },
+      { id: 1, name: 'You', courses: [], color: COLORS[0], hidden: false },
     ]
+    // Ensure hidden property exists for older saves
+    this.friends.forEach((f) => (f.hidden = !!f.hidden))
   }
 
   getOverlap(start, end) {
@@ -87,11 +90,13 @@ class Timetable {
       e.stopPropagation()
       const id = parseInt(e.target.closest('.friend-container')?.dataset.id)
       if (!id) return
-      if (e.target.closest('.action-search')) {
+
+      if (e.target.closest('.action-add')) {
         this.activeSearchId = id
         this.render()
       }
-      if (e.target.closest('.action-edit')) this.editFriend(id)
+      if (e.target.closest('.friend-name')) this.editFriend(id)
+      if (e.target.closest('.friend-color')) this.toggleVisibility(id)
       if (e.target.closest('.action-delete')) this.deleteFriend(id)
       if (e.target.closest('.action-remove'))
         this.toggleCourse(id, e.target.dataset.name)
@@ -118,12 +123,7 @@ class Timetable {
     const matches = this.courses
       .filter((c) => c.name.toLowerCase().includes(query))
       .slice(0, 10)
-    results.innerHTML = matches
-      .map(
-        (c) =>
-          `<div class="search-result p-3 hover:bg-slate-50 dark:hover:bg-slate-800 cursor-pointer border-b border-slate-100 dark:border-slate-800 text-[11px] flex justify-between" data-name="${c.name}"><span>${c.name}</span><span class="mono text-slate-400 dark:text-slate-500">${c.half || ''}</span></div>`,
-      )
-      .join('')
+    results.innerHTML = Templates.searchResults(matches)
   }
 
   toggleCourse(id, name) {
@@ -131,6 +131,13 @@ class Timetable {
     const idx = f.courses.indexOf(name)
     idx > -1 ? f.courses.splice(idx, 1) : f.courses.push(name)
     this.activeSearchId = null
+    this.save()
+    this.render()
+  }
+
+  toggleVisibility(id) {
+    const f = this.friends.find((f) => f.id === id)
+    f.hidden = !f.hidden
     this.save()
     this.render()
   }
@@ -161,6 +168,7 @@ class Timetable {
         name: n,
         courses: [],
         color: COLORS[this.friends.length % COLORS.length],
+        hidden: false,
       })
       this.save()
       this.render()
@@ -180,17 +188,14 @@ class Timetable {
         return Templates.friend(f, this.activeSearchId === f.id, objs)
       })
       .join('')
-    document.getElementById('daysHeader').innerHTML =
-      '<div></div>' +
-      DAYS.map(
-        (d) =>
-          `<div class="text-center text-[10px] uppercase tracking-widest text-slate-500 dark:text-slate-400 font-semibold">${d}</div>`,
-      ).join('')
+    document.getElementById('daysHeader').innerHTML = Templates.daysHeader(DAYS)
+
     document.getElementById('timetableBody').innerHTML = this.timeSlots
       .map((slot) => {
         const cells = DAYS.map((day) => {
           const map = new Map()
           this.friends.forEach((f) => {
+            if (f.hidden) return
             f.courses.forEach((cn) => {
               const c = this.courses.find((x) => x.name === cn)
               if (!c || !c.days.includes(day) || !c.slotIds.includes(slot.id))
