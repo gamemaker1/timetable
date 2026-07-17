@@ -9,1132 +9,1201 @@
   ],
   "courses": [
     {
-      "name": "The Mathematics of Information: Theory & Application",
-      "days": ["Monday", "Thursday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": 1,
-      "classroom": "H101"
-    },
-    {
-      "name": "Introduction to Coding Theory",
-      "days": ["Monday", "Thursday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": 2,
-      "classroom": "H101"
-    },
-    {
-      "name": "Optimization Methods",
+      "name": "Computer Programming",
+      "code": "CS0.101",
       "days": ["Monday", "Thursday"],
       "starts": "0830",
       "ends": "0955",
       "half": null,
-      "classroom": "H103"
+      "classroom": ""
     },
     {
-      "name": "Making of Contemporary World",
+      "name": "Digital Image Processing",
+      "code": "CS7.404",
       "days": ["Monday", "Thursday"],
       "starts": "0830",
       "ends": "0955",
       "half": null,
-      "classroom": "H201"
+      "classroom": ""
     },
     {
-      "name": "CMOS Oscillator Design",
+      "name": "Algorithm Analysis & Design",
+      "code": "CS1.301",
       "days": ["Monday", "Thursday"],
       "starts": "0830",
       "ends": "0955",
       "half": null,
-      "classroom": "H301"
+      "classroom": ""
     },
     {
-      "name": "Advanced Structural Analysis",
+      "name": "Data Analytics I",
+      "code": "CS4.405",
       "days": ["Monday", "Thursday"],
       "starts": "0830",
       "ends": "0955",
       "half": null,
-      "classroom": "H302"
+      "classroom": ""
     },
     {
-      "name": "Computer Systems Organization (Section A & B)",
+      "name": "Computer Problem Solving",
+      "code": "CS0.301",
       "days": ["Monday", "Thursday"],
       "starts": "0830",
       "ends": "0955",
       "half": null,
-      "classroom": "SH1 & SH2"
+      "classroom": ""
     },
     {
-      "name": "General and Structural Chemistry",
+      "name": "Earthquake Resistant Design of Masonry Structures",
+      "code": "CE1.607",
       "days": ["Monday", "Thursday"],
-      "starts": "1005",
-      "ends": "1130",
+      "starts": "0830",
+      "ends": "0955",
       "half": null,
-      "classroom": "H101"
+      "classroom": ""
     },
     {
-      "name": "Introduction to Linguistics II",
+      "name": "Design Thinking",
+      "code": "PD1.301",
       "days": ["Monday", "Thursday"],
-      "starts": "1005",
-      "ends": "1130",
+      "starts": "0830",
+      "ends": "0955",
       "half": null,
-      "classroom": "H102"
+      "classroom": ""
     },
     {
-      "name": "Mathematical Models in Biology",
+      "name": "CMOS References and Regulators",
+      "code": "EC2.410",
       "days": ["Monday", "Thursday"],
-      "starts": "1005",
-      "ends": "1130",
+      "starts": "0830",
+      "ends": "0955",
       "half": null,
-      "classroom": "H103"
+      "classroom": ""
     },
     {
-      "name": "Design and Analysis of Software Systems",
-      "days": ["Monday", "Thursday"],
-      "starts": "1005",
-      "ends": "1130",
+      "name": "Biomolecular Structure Interaction and Dynamics",
+      "code": "SC3.321",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
       "half": null,
-      "classroom": "H105"
+      "classroom": ""
     },
     {
-      "name": "Molecular Biology",
-      "days": ["Monday", "Thursday"],
-      "starts": "1005",
-      "ends": "1130",
+      "name": "Computational Linguistics II: Comp Semantics and Discourse parsing",
+      "code": "CL3.202",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
       "half": null,
-      "classroom": "H201"
+      "classroom": ""
     },
     {
-      "name": "Machine Learning for Natural Sciences",
-      "days": ["Monday", "Thursday"],
-      "starts": "1005",
-      "ends": "1130",
+      "name": "Software Systems Development",
+      "code": "CS6.302",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
       "half": null,
-      "classroom": "H202"
+      "classroom": ""
     },
     {
-      "name": "Earthquake Engineering",
-      "days": ["Monday", "Thursday"],
-      "starts": "1005",
-      "ends": "1130",
+      "name": "Theory of Elasticity",
+      "code": "CE0.501",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
       "half": null,
-      "classroom": "H203"
+      "classroom": ""
     },
     {
-      "name": "Introduction to IoT",
-      "days": ["Monday", "Thursday"],
-      "starts": "1005",
-      "ends": "1130",
+      "name": "Real Analysis",
+      "code": "MA4.101",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
       "half": null,
-      "classroom": "H205"
+      "classroom": ""
     },
     {
-      "name": "Physics of Soft Condensed Matter",
-      "days": ["Monday", "Thursday"],
-      "starts": "1005",
-      "ends": "1130",
+      "name": "Product Marketing",
+      "code": "PD2.501",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
       "half": null,
-      "classroom": "H301"
+      "classroom": ""
     },
     {
-      "name": "Introduction to Particle Physics",
-      "days": ["Monday", "Thursday"],
-      "starts": "1005",
-      "ends": "1130",
+      "name": "Physics of Early Universe",
+      "code": "SC1.415",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
       "half": null,
-      "classroom": "H302"
+      "classroom": ""
     },
     {
-      "name": "Analog Electronic Circuits",
-      "days": ["Monday", "Thursday"],
-      "starts": "1005",
-      "ends": "1130",
+      "name": "Open Quantum Systems and Quantum Thermodynamics",
+      "code": "SC1.410",
+      "days": ["Tuesday", "Friday"],
+      "starts": "0830",
+      "ends": "0955",
       "half": null,
-      "classroom": "SH2"
-    },
-    {
-      "name": "Communication Theory",
-      "days": ["Monday", "Thursday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null,
-      "classroom": "SH3"
-    },
-    {
-      "name": "Computing in Sciences II",
-      "days": ["Monday", "Thursday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": 2,
-      "classroom": "H101"
-    },
-    {
-      "name": "Introduction to Spatial Sciences & Technology",
-      "days": ["Monday", "Thursday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": 2,
-      "classroom": "H102"
-    },
-    {
-      "name": "Advanced Algorithms",
-      "days": ["Monday", "Thursday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": null,
-      "classroom": "H103"
-    },
-    {
-      "name": "Topics in Reinforcement Learning",
-      "days": ["Monday", "Thursday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": null,
-      "classroom": "H104"
-    },
-    {
-      "name": "Behavioral Research: Statistical Methods",
-      "days": ["Monday", "Thursday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": null,
-      "classroom": "H105"
-    },
-    {
-      "name": "Organic Chemistry",
-      "days": ["Monday", "Thursday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": 2,
-      "classroom": "H201"
-    },
-    {
-      "name": "User Interaction and Usability of Digital Products",
-      "days": ["Monday", "Thursday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": null,
-      "classroom": "H203"
-    },
-    {
-      "name": "Responsible & Safe AI Systems",
-      "days": ["Monday", "Thursday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": null,
-      "classroom": "H204"
-    },
-    {
-      "name": "Intro to Human Sciences (UG2 ECE/D, CLD, CGD & UG3 CND) (Sec A)",
-      "days": ["Monday", "Thursday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": null,
-      "classroom": "H205"
-    },
-    {
-      "name": "Foundations for Trustworthy Parallel Computing",
-      "days": ["Monday", "Thursday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": 2,
-      "classroom": "H301"
-    },
-    {
-      "name": "Speech Signal Processing",
-      "days": ["Monday", "Thursday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": null,
-      "classroom": "H302"
-    },
-    {
-      "name": "Information & Communication",
-      "days": ["Monday", "Thursday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": null,
-      "classroom": "SH2"
+      "classroom": ""
     },
     {
       "name": "Basics of Ethics",
-      "days": ["Monday", "Thursday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null,
-      "classroom": "H101"
-    },
-    {
-      "name": "Differential Equations",
-      "days": ["Monday", "Thursday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null,
-      "classroom": "H102"
-    },
-    {
-      "name": "Learning and Memory",
-      "days": ["Monday", "Thursday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null,
-      "classroom": "H103"
-    },
-    {
-      "name": "Thermodynamics",
-      "days": ["Monday", "Thursday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": 1,
-      "classroom": "H104"
-    },
-    {
-      "name": "Intro to Human Sciences (UG2 CSE/D) (Sec B)",
-      "days": ["Monday", "Thursday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null,
-      "classroom": "H105"
-    },
-    {
-      "name": "Art, Vision, & Feelings",
-      "days": ["Monday", "Thursday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": 2,
-      "classroom": "H201"
-    },
-    {
-      "name": "Computational Psycholinguistics",
-      "days": ["Monday", "Thursday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null,
-      "classroom": "H202"
-    },
-    {
-      "name": "Topics in Discrete Mathematics",
-      "days": ["Monday", "Thursday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null,
-      "classroom": "H203"
-    },
-    {
-      "name": "Science II (UG3 ECE/D, LED & CHD) (Sec B)",
-      "days": ["Monday", "Thursday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null,
-      "classroom": "H205"
-    },
-    {
-      "name": "Disaster Management",
-      "days": ["Monday", "Thursday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null,
-      "classroom": "H301"
-    },
-    {
-      "name": "Linear Partial Differential Equations and Variational Calculus",
-      "days": ["Monday", "Thursday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null,
-      "classroom": "H302"
-    },
-    {
-      "name": "Intro to Processor Architecture",
-      "days": ["Monday", "Thursday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": 1,
-      "classroom": "SH2"
-    },
-    {
-      "name": "Applications of Language Models",
-      "days": ["Monday", "Thursday"],
-      "starts": "1535",
-      "ends": "1700",
-      "half": null,
-      "classroom": "H101"
-    },
-    {
-      "name": "Robotics: Planning and Navigation",
-      "days": ["Monday", "Thursday"],
-      "starts": "1535",
-      "ends": "1700",
-      "half": null,
-      "classroom": "H102"
-    },
-    {
-      "name": "Introduction to Information Security",
+      "code": "HS0.203b",
       "days": ["Wednesday", "Saturday"],
-      "starts": "1535",
-      "ends": "1700",
-      "half": 1,
-      "classroom": "H103"
+      "starts": "0830",
+      "ends": "0955",
+      "half": null,
+      "classroom": ""
     },
     {
-      "name": "Digital Signal Analysis",
+      "name": "Design for Social Innovation",
+      "code": "CS9.429",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Basics of Ethics",
+      "code": "HS0.203a",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Advanced Computer Architecture",
+      "code": "CS2.501",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Quantum Error Correcting Codes",
+      "code": "EC5.413",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Market Research and Customer Validation",
+      "code": "PD2.404",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "AI for Product Managers",
+      "code": "PD3.401",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Optoelectronics & Integrated Photonics",
+      "code": "EC2.415",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "0830",
+      "ends": "0955",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Digital Systems and Microcontrollers",
+      "code": "EC2.101",
       "days": ["Monday", "Thursday"],
-      "starts": "1535",
-      "ends": "1700",
-      "half": 2,
-      "classroom": "H103"
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": ""
     },
     {
-      "name": "Statistical Methods in AI",
+      "name": "Introduction to Biology",
+      "code": "SC3.101",
       "days": ["Monday", "Thursday"],
-      "starts": "1535",
-      "ends": "1700",
+      "starts": "1005",
+      "ends": "1130",
       "half": null,
-      "classroom": "H105"
+      "classroom": ""
     },
     {
-      "name": "Law, Technology and Digital Governance",
+      "name": "Structural Engineering Design Studio",
+      "code": "CE1.502",
       "days": ["Monday", "Thursday"],
-      "starts": "1535",
-      "ends": "1700",
+      "starts": "1005",
+      "ends": "1130",
       "half": null,
-      "classroom": "H201"
+      "classroom": ""
     },
     {
-      "name": "Flexible Electronics",
+      "name": "Introduction to Quantum Field Theory",
+      "code": "SC1.421",
       "days": ["Monday", "Thursday"],
-      "starts": "1535",
-      "ends": "1700",
+      "starts": "1005",
+      "ends": "1130",
       "half": null,
-      "classroom": "H202"
+      "classroom": ""
     },
     {
-      "name": "Critical Viewing and Reading",
+      "name": "Dynamical Processes in Complex Networks",
+      "code": "SC1.440",
       "days": ["Monday", "Thursday"],
-      "starts": "1710",
-      "ends": "1840",
+      "starts": "1005",
+      "ends": "1130",
       "half": null,
-      "classroom": "H101"
+      "classroom": ""
     },
     {
-      "name": "Growth and Development",
+      "name": "Signal Processing",
+      "code": "EC5.201",
       "days": ["Monday", "Thursday"],
-      "starts": "1710",
-      "ends": "1840",
+      "starts": "1005",
+      "ends": "1130",
       "half": null,
-      "classroom": "H103"
+      "classroom": ""
     },
     {
-      "name": "Introduction to Quantum Information and Computation",
-      "days": ["Tuesday", "Friday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": 1,
-      "classroom": "H101"
-    },
-    {
-      "name": "Introduction to Algorithms Engineering",
-      "days": ["Tuesday", "Friday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": 2,
-      "classroom": "H101"
-    },
-    {
-      "name": "Research Methods in Human Sciences",
-      "days": ["Tuesday", "Friday"],
-      "starts": "0830",
-      "ends": "0955",
+      "name": "Chemistry Topics for Engineers",
+      "code": "SC2.309",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
       "half": null,
-      "classroom": "H102"
+      "classroom": ""
     },
     {
-      "name": "Intro to VLSI and Embedded Systems",
-      "days": ["Tuesday", "Friday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": 1,
-      "classroom": "H103"
-    },
-    {
-      "name": "Introduction to Statistical Signal Processing",
-      "days": ["Tuesday", "Friday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": 2,
-      "classroom": "H103"
-    },
-    {
-      "name": "Topics in Physics",
-      "days": ["Tuesday", "Friday"],
-      "starts": "0830",
-      "ends": "0955",
+      "name": "Topics in Nanosciences",
+      "code": "SC2.401",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
       "half": null,
-      "classroom": "H201"
+      "classroom": ""
     },
     {
-      "name": "Mathematical Methods in Sciences",
-      "days": ["Tuesday", "Friday"],
-      "starts": "0830",
-      "ends": "0955",
+      "name": "Classical Text Readings",
+      "code": "HS0.301",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
       "half": null,
-      "classroom": "H202"
+      "classroom": ""
     },
     {
-      "name": "The Universe Across Scales",
-      "days": ["Tuesday", "Friday"],
-      "starts": "0830",
-      "ends": "0955",
+      "name": "Computer Aided Drug Design",
+      "code": "SC4.415",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
       "half": null,
-      "classroom": "H205"
+      "classroom": ""
     },
     {
-      "name": "Molecular Modeling and Simulations",
-      "days": ["Tuesday", "Friday"],
-      "starts": "0830",
-      "ends": "0955",
+      "name": "Quantum Information Science",
+      "code": "SC4.430",
+      "days": ["Monday", "Thursday"],
+      "starts": "1005",
+      "ends": "1130",
       "half": null,
-      "classroom": "H301"
+      "classroom": ""
     },
     {
-      "name": "Product Lifecycle Management",
-      "days": ["Tuesday", "Friday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": null,
-      "classroom": "H302"
-    },
-    {
-      "name": "Data Structures and Algorithms (Section A, B & C)",
-      "days": ["Tuesday", "Friday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": null,
-      "classroom": "SH1, SH2 & SH3"
-    },
-    {
-      "name": "Engineering Virtual Reality Systems",
+      "name": "Discrete Structures",
+      "code": "MA5.101",
       "days": ["Tuesday", "Friday"],
       "starts": "1005",
       "ends": "1130",
       "half": null,
-      "classroom": "H101"
+      "classroom": ""
     },
     {
-      "name": "Performance Modeling of Computer Systems",
+      "name": "Operating Systems and Networks",
+      "code": "CS3.301",
       "days": ["Tuesday", "Friday"],
       "starts": "1005",
       "ends": "1130",
-      "half": 1,
-      "classroom": "H102"
+      "half": null,
+      "classroom": ""
     },
     {
-      "name": "Statistical Mechanics",
+      "name": "Quantum Mechanics",
+      "code": "SC1.203",
       "days": ["Tuesday", "Friday"],
       "starts": "1005",
       "ends": "1130",
-      "half": 2,
-      "classroom": "H102"
+      "half": null,
+      "classroom": ""
     },
     {
-      "name": "Biomolecular Structures",
+      "name": "Advanced Design of Steel Structures",
+      "code": "CE1.610",
       "days": ["Tuesday", "Friday"],
       "starts": "1005",
       "ends": "1130",
-      "half": 1,
-      "classroom": "H103"
+      "half": null,
+      "classroom": ""
     },
     {
-      "name": "Introduction to Brain and Cognition",
+      "name": "MCS 1-Probability and Statistics",
+      "code": "MA6.301",
       "days": ["Tuesday", "Friday"],
       "starts": "1005",
       "ends": "1130",
-      "half": 2,
-      "classroom": "H103"
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "MCS 2-Linear Algebra",
+      "code": "MA6.302",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Advanced NLP",
+      "code": "CS7.501",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Finite Element Methods",
+      "code": "CE4.501",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "VLSI Design",
+      "code": "EC2.201",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Introduction to Neural and Cognitive Modelling",
+      "code": "CG3.401",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Behavioral Research: Experimental Design",
+      "code": "CG3.402",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Cyber GIS: Geospatial Web and GeoBI",
+      "code": "GS2.402",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Bioinformatics-II",
+      "code": "SC3.302",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1005",
+      "ends": "1130",
+      "half": null,
+      "classroom": ""
     },
     {
       "name": "Introduction to Game Theory",
+      "code": "CS1.408",
       "days": ["Tuesday", "Friday"],
       "starts": "1005",
       "ends": "1130",
       "half": null,
-      "classroom": "H104"
+      "classroom": ""
     },
     {
-      "name": "Data Systems",
+      "name": "Advanced Memory Circuits and Systems",
+      "code": "EC2.414",
       "days": ["Tuesday", "Friday"],
       "starts": "1005",
       "ends": "1130",
       "half": null,
-      "classroom": "H105"
+      "classroom": ""
     },
     {
-      "name": "Computational Linguistics 1",
-      "days": ["Tuesday", "Friday"],
+      "name": "Probability and Statistics",
+      "code": "MA6.101",
+      "days": ["Wednesday", "Saturday"],
       "starts": "1005",
       "ends": "1130",
       "half": null,
-      "classroom": "H201"
+      "classroom": ""
     },
     {
-      "name": "Spatial Data Sciences",
-      "days": ["Tuesday", "Friday"],
+      "name": "Arts-1",
+      "code": "OC2.101",
+      "days": ["Wednesday", "Saturday"],
       "starts": "1005",
       "ends": "1130",
       "half": null,
-      "classroom": "H202"
+      "classroom": ""
     },
     {
-      "name": "Quantum Algorithms",
-      "days": ["Tuesday", "Friday"],
+      "name": "Product Management",
+      "code": "PD2.401",
+      "days": ["Wednesday", "Saturday"],
       "starts": "1005",
       "ends": "1130",
       "half": null,
-      "classroom": "H203"
+      "classroom": ""
     },
     {
-      "name": "Analog IC Design",
-      "days": ["Tuesday", "Friday"],
+      "name": "Introduction to Sociology",
+      "code": "HS2.201",
+      "days": ["Wednesday", "Saturday"],
       "starts": "1005",
       "ends": "1130",
       "half": null,
-      "classroom": "H204"
+      "classroom": ""
     },
     {
-      "name": "Science, Technology and Society",
-      "days": ["Tuesday", "Friday"],
+      "name": "Environmental Humanities",
+      "code": "HS1.304",
+      "days": ["Wednesday", "Saturday"],
       "starts": "1005",
       "ends": "1130",
       "half": null,
-      "classroom": "H301"
+      "classroom": ""
     },
     {
-      "name": "Thinking and Knowing in the Human Sciences I",
-      "days": ["Tuesday", "Friday"],
+      "name": "Introduction to Psychology",
+      "code": "CG1.401",
+      "days": ["Wednesday", "Saturday"],
       "starts": "1005",
       "ends": "1130",
       "half": null,
-      "classroom": "H302"
+      "classroom": ""
     },
     {
-      "name": "Cognitive Neuroscience",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null,
-      "classroom": "H303"
-    },
-    {
-      "name": "Computing Tools",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null,
-      "classroom": "H304"
-    },
-    {
-      "name": "Instrumentation and Devices",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null,
-      "classroom": "B4-302"
-    },
-    {
-      "name": "Classical Mechanics",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": 1,
-      "classroom": "CR1"
-    },
-    {
-      "name": "Electrodynamics",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": 2,
-      "classroom": "CR1"
-    },
-    {
-      "name": "Language Typology and Universals",
-      "days": ["Tuesday", "Friday"],
+      "name": "Introduction to Linguistics-1",
+      "code": "CL1.101",
+      "days": ["Monday", "Thursday"],
       "starts": "1140",
       "ends": "1305",
       "half": null,
-      "classroom": "H101"
+      "classroom": ""
     },
     {
-      "name": "Linguistic Data 3: Data Modeling in ILs",
-      "days": ["Tuesday", "Friday"],
+      "name": "Networks Signals and Systems",
+      "code": "EC5.101",
+      "days": ["Monday", "Thursday"],
       "starts": "1140",
       "ends": "1305",
-      "half": 1,
-      "classroom": "H102"
+      "half": null,
+      "classroom": ""
     },
     {
-      "name": "Numerical Algorithms",
-      "days": ["Tuesday", "Friday"],
+      "name": "Automata Theory",
+      "code": "CS1.302",
+      "days": ["Monday", "Thursday"],
       "starts": "1140",
       "ends": "1305",
-      "half": 1,
-      "classroom": "H103"
+      "half": null,
+      "classroom": ""
     },
     {
-      "name": "Language and Power",
-      "days": ["Tuesday", "Friday"],
+      "name": "Wireless Communications",
+      "code": "EC5.407",
+      "days": ["Monday", "Thursday"],
       "starts": "1140",
       "ends": "1305",
-      "half": 1,
-      "classroom": "H104"
+      "half": null,
+      "classroom": ""
     },
     {
-      "name": "Geospatial for Sustainable Development",
+      "name": "Computing in Sciences-I",
+      "code": "SC4.101",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Data and Applications",
+      "code": "CS4.301",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Environmental Science & Technology",
+      "code": "CS9.428",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Human Sciences Lab-I",
+      "code": "HS7.101",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Data Structures & Algorithms for Problem Solving",
+      "code": "CS1.304",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Robotics: Dynamics and Control",
+      "code": "EC4.401",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Modern Complexity Theory",
+      "code": "CS1.405",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Structural Dynamics",
+      "code": "CE1.501",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Advanced Computer Networks",
+      "code": "CS3.402",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Spatial Thinking and Practice",
+      "code": "GS0.101",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Principles of Semiconductor Devices",
+      "code": "EC2.409",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Service Design",
+      "code": "PD1.402",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Information, Computation and Learning",
+      "code": "EC5.415",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "System Thinking and Design",
+      "code": "PD2.405",
+      "days": ["Monday", "Thursday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Language and Society",
+      "code": "CL2.203",
       "days": ["Tuesday", "Friday"],
       "starts": "1140",
       "ends": "1305",
       "half": null,
-      "classroom": "H201"
+      "classroom": ""
     },
     {
-      "name": "Ethics and the Digital Society",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": 1,
-      "classroom": "H203"
-    },
-    {
-      "name": "Evaluation Methods for NLP",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": 2,
-      "classroom": "H203"
-    },
-    {
-      "name": "AI and Human Rights",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": 1,
-      "classroom": "H204"
-    },
-    {
-      "name": "Literature and the Ethics of telling a Story",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": 2,
-      "classroom": "H204"
-    },
-    {
-      "name": "Analysis and Design of Bridge Infrastructure",
+      "name": "IoT Workshop",
+      "code": "CE9.609",
       "days": ["Tuesday", "Friday"],
       "starts": "1140",
       "ends": "1305",
       "half": null,
-      "classroom": "H301"
+      "classroom": ""
     },
     {
-      "name": "Ethics in Research",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": 2,
-      "classroom": "H303"
-    },
-    {
-      "name": "Constitutional Ethics",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1140",
-      "ends": "1305",
-      "half": 2,
-      "classroom": "H304"
-    },
-    {
-      "name": "Linear Algebra (Section A, B & C)",
+      "name": "Probability and Random Processes",
+      "code": "MA6.102",
       "days": ["Tuesday", "Friday"],
       "starts": "1140",
       "ends": "1305",
       "half": null,
-      "classroom": "SH1, SH2 & SH3"
+      "classroom": ""
     },
     {
-      "name": "Information-Theoretic Methods in Computer Science",
+      "name": "Foundations for Signal Processing and Communication",
+      "code": "EC5.412",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Making of the Contemporary India",
+      "code": "HS4.102",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Thinking and Knowing in the Human Sciences - III",
+      "code": "HS0.216",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Learning & Memory",
+      "code": "CG1.403",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Complex Analysis",
+      "code": "M26 Temp 12",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Advanced Probability Theory",
+      "code": "M26 Temp 13",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Value Education-1",
+      "code": "OC3.101",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Science I",
+      "code": "SC1.110b",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Science I",
+      "code": "SC1.110a",
+      "days": ["Wednesday", "Saturday"],
+      "starts": "1140",
+      "ends": "1305",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Mobile Robotics",
+      "code": "CS7.503",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Introduction to Neuroeconomics",
+      "code": "CG4.402",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Bioinformatics",
+      "code": "SC3.202",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Embedded Systems Workshop",
+      "code": "EC3.202",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Signal Detection and Estimation Theory",
+      "code": "EC5.406",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Introduction to Cognitive Science",
+      "code": "CG1.402",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Retrofiting of Existing Infrastructure",
+      "code": "CE1.621",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "NLP for Healthcare",
+      "code": "CL3.411",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Language Models and Agents",
+      "code": "CL3.410",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Advanced Remote Sensing",
+      "code": "GS1.501",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Autonomous Software Engineering",
+      "code": "M26 Temp 07",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Diffusion Models for Generative AI",
+      "code": "M26 Temp 08",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Topics in AI for Healthcare",
+      "code": "M26 Temp 09",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Programming AI Accelerators",
+      "code": "M26 Temp 11",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Scientific Visualisation",
+      "code": "M26 Temp 14",
+      "days": ["Monday", "Thursday"],
+      "starts": "1400",
+      "ends": "1525",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Spatial Informatics",
+      "code": "GS2.401",
       "days": ["Tuesday", "Friday"],
       "starts": "1400",
       "ends": "1525",
       "half": null,
-      "classroom": "H101"
+      "classroom": ""
     },
     {
-      "name": "Cognitive Science and AI",
+      "name": "Research in Information Security",
+      "code": "CS8.501",
       "days": ["Tuesday", "Friday"],
       "starts": "1400",
       "ends": "1525",
       "half": null,
-      "classroom": "H102"
+      "classroom": ""
     },
     {
-      "name": "Compilers",
+      "name": "Systems Thinking",
+      "code": "EC5.202",
       "days": ["Tuesday", "Friday"],
       "starts": "1400",
       "ends": "1525",
       "half": null,
-      "classroom": "H103"
+      "classroom": ""
     },
     {
-      "name": "Hydro Informatics & Climate Sciences",
+      "name": "Thinking and Knowing in the Human Sciences-2",
+      "code": "HS0.202",
       "days": ["Tuesday", "Friday"],
       "starts": "1400",
       "ends": "1525",
       "half": null,
-      "classroom": "H104"
+      "classroom": ""
     },
     {
-      "name": "Science II (UG2 CSE/D, UG3 CLD) (Sec A)",
+      "name": "Science Lab I",
+      "code": "SC4.110",
       "days": ["Tuesday", "Friday"],
       "starts": "1400",
       "ends": "1525",
       "half": null,
-      "classroom": "H105"
+      "classroom": ""
     },
     {
-      "name": "Mathematics for Finance",
+      "name": "Speech Analysis and Linguistics",
+      "code": "CL2.405",
       "days": ["Tuesday", "Friday"],
       "starts": "1400",
       "ends": "1525",
       "half": null,
-      "classroom": "H201"
+      "classroom": ""
     },
     {
-      "name": "Technology Product Entrepreneurship",
+      "name": "Digital VLSI Design",
+      "code": "EC2.408",
       "days": ["Tuesday", "Friday"],
       "starts": "1400",
       "ends": "1525",
       "half": null,
-      "classroom": "H202"
-    },
-    {
-      "name": "Intro to Robotics: Perception and Planning",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": 1,
-      "classroom": "H203"
-    },
-    {
-      "name": "Foundations of RF and Microwave Sensors",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": 2,
-      "classroom": "H203"
-    },
-    {
-      "name": "Optical Remote Sensing",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1400",
-      "ends": "1525",
-      "half": null,
-      "classroom": "H204"
+      "classroom": ""
     },
     {
       "name": "Distributed Systems",
+      "code": "CS3.401",
       "days": ["Tuesday", "Friday"],
       "starts": "1400",
       "ends": "1525",
       "half": null,
-      "classroom": "H205"
+      "classroom": ""
     },
     {
-      "name": "Topics in SSMT",
+      "name": "Structural Safety of Built Infrastructure",
+      "code": "CE1.625",
       "days": ["Tuesday", "Friday"],
       "starts": "1400",
       "ends": "1525",
       "half": null,
-      "classroom": "H301"
+      "classroom": ""
     },
     {
-      "name": "Machine Learning for Communication",
+      "name": "Topics in Software Engineering",
+      "code": "CS6.501",
       "days": ["Tuesday", "Friday"],
       "starts": "1400",
       "ends": "1525",
       "half": null,
-      "classroom": "H302"
+      "classroom": ""
     },
     {
-      "name": "NGS Data Analysis",
+      "name": "Social Science Perspective on HCI",
+      "code": "CS9.425",
       "days": ["Tuesday", "Friday"],
       "starts": "1400",
       "ends": "1525",
       "half": null,
-      "classroom": "H303"
+      "classroom": ""
     },
     {
-      "name": "Analysis & Design of Precast and Prestressed Structures",
+      "name": "FPGA based Accelerator Design",
+      "code": "CS2.401",
       "days": ["Tuesday", "Friday"],
       "starts": "1400",
       "ends": "1525",
       "half": null,
-      "classroom": "H304"
+      "classroom": ""
     },
     {
-      "name": "Readings in Russian Literature",
+      "name": "Earth System Science and Modelling",
+      "code": "GS3.603",
       "days": ["Tuesday", "Friday"],
-      "starts": "1535",
-      "ends": "1700",
+      "starts": "1400",
+      "ends": "1525",
       "half": null,
-      "classroom": "H101"
+      "classroom": ""
     },
     {
-      "name": "The Digital City",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1535",
-      "ends": "1700",
-      "half": null,
-      "classroom": "H102"
-    },
-    {
-      "name": "Software Programming for Performance",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1535",
-      "ends": "1700",
-      "half": 1,
-      "classroom": "H103"
-    },
-    {
-      "name": "Introduction to Philosophy of Technology",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1535",
-      "ends": "1700",
-      "half": null,
-      "classroom": "H104"
-    },
-    {
-      "name": "Data Visualisation",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1535",
-      "ends": "1700",
-      "half": 1,
-      "classroom": "H105"
-    },
-    {
-      "name": "Sustainable Growth Strategy for Startup",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1535",
-      "ends": "1700",
-      "half": 1,
-      "classroom": "H201"
-    },
-    {
-      "name": "Knowing India Through Data",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1535",
-      "ends": "1700",
-      "half": 2,
-      "classroom": "H201"
-    },
-    {
-      "name": "Theories and Practices of Nationalism",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1535",
-      "ends": "1700",
-      "half": null,
-      "classroom": "H202"
-    },
-    {
-      "name": "System and Network Security",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1535",
-      "ends": "1700",
-      "half": null,
-      "classroom": "H205"
-    },
-    {
-      "name": "Music Language Creativity",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1535",
-      "ends": "1700",
-      "half": null,
-      "classroom": "N328"
-    },
-    {
-      "name": "Internals of Application Servers",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1710",
-      "ends": "1840",
-      "half": null,
-      "classroom": "H101"
-    },
-    {
-      "name": "Intro to UAV Design",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1710",
-      "ends": "1840",
-      "half": null,
-      "classroom": "H103"
-    },
-    {
-      "name": "Principles of Information Security",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1710",
-      "ends": "1840",
-      "half": null,
-      "classroom": "H105"
-    },
-    {
-      "name": "Software Engineering",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1710",
-      "ends": "1840",
-      "half": null,
-      "classroom": "H205"
-    },
-    {
-      "name": "Computer Graphics",
-      "days": ["Wednesday", "Saturday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": 2,
-      "classroom": "H101"
-    },
-    {
-      "name": "Quantum aspects of Cryptography",
-      "days": ["Wednesday", "Saturday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": null,
-      "classroom": "H102"
-    },
-    {
-      "name": "Information Security Audit and Assurance",
-      "days": ["Wednesday", "Saturday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": null,
-      "classroom": "H103"
-    },
-    {
-      "name": "Molecular Symmetry and Quantum Mechanics",
-      "days": ["Wednesday", "Saturday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": null,
-      "classroom": "H104"
-    },
-    {
-      "name": "Introduction to NLP",
-      "days": ["Wednesday", "Saturday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": null,
-      "classroom": "H105"
-    },
-    {
-      "name": "Introduction to Software Systems (A&B)",
-      "days": ["Wednesday", "Saturday"],
-      "starts": "0830",
-      "ends": "0955",
-      "half": null,
-      "classroom": "SH1 & SH2"
-    },
-    {
-      "name": "Sociology of Platform Economies",
-      "days": ["Wednesday", "Saturday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null,
-      "classroom": "H101"
-    },
-    {
-      "name": "Digital Democracy and Data Governance in the European Union",
-      "days": ["Wednesday", "Saturday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null,
-      "classroom": "H102"
-    },
-    {
-      "name": "Mechatronics System Design",
-      "days": ["Wednesday", "Saturday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null,
-      "classroom": "H103"
-    },
-    {
-      "name": "Machine, Data and Learning",
-      "days": ["Wednesday", "Saturday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null,
-      "classroom": "H105"
-    },
-    {
-      "name": "Gender, Culture and Representation",
-      "days": ["Wednesday", "Saturday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null,
-      "classroom": "H201"
-    },
-    {
-      "name": "Product Design Workshop",
-      "days": ["Wednesday", "Saturday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null,
-      "classroom": "H202"
-    },
-    {
-      "name": "Computer Vision",
-      "days": ["Wednesday", "Saturday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": null,
-      "classroom": "H205"
-    },
-    {
-      "name": "Arts II (H1)",
-      "days": ["Wednesday", "Saturday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": 1,
-      "classroom": "Nilgiri Classrooms"
-    },
-    {
-      "name": "Arts II (H2)",
-      "days": ["Wednesday", "Saturday"],
-      "starts": "1005",
-      "ends": "1130",
-      "half": 2,
-      "classroom": "Nilgiri Classrooms"
-    },
-    {
-      "name": "Value Education II (H)",
-      "days": ["Wednesday"],
-      "starts": "1140",
-      "ends": "1340",
-      "half": null,
-      "classroom": null
-    },
-    {
-      "name": "Business Finance",
+      "name": "Business Fundamentals",
+      "code": "PD2.421",
       "days": ["Saturday"],
       "starts": "1400",
       "ends": "1700",
       "half": null,
-      "classroom": "H103"
+      "classroom": ""
     },
     {
-      "name": "Science Lab II (H)",
-      "days": ["Tuesday", "Friday"],
-      "starts": "1400",
+      "name": "Principles of Programming Languages",
+      "code": "CS1.402",
+      "days": ["Monday", "Thursday"],
+      "starts": "1535",
       "ends": "1700",
       "half": null,
-      "classroom": null
+      "classroom": ""
+    },
+    {
+      "name": "Information Retrieval and Extraction",
+      "code": "CS4.406",
+      "days": ["Monday", "Thursday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Advanced Operating Systems",
+      "code": "CS3.304",
+      "days": ["Monday", "Thursday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Algorithms and Operating Systems",
+      "code": "CS3.306",
+      "days": ["Monday", "Thursday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Micro & Nano Fabrication Technology for ICs",
+      "code": "EC2.416",
+      "days": ["Monday", "Thursday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Introduction to History",
+      "code": "HS3.201",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Spectroscopy",
+      "code": "SC2.304",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Chemical Kinetics and Reaction Dynamics",
+      "code": "SC2.305",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Music Workshop",
+      "code": "HS1.210",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Identity and Economic Development",
+      "code": "HS5.402",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Introduction to Economics",
+      "code": "HS5.202",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Gender and Society",
+      "code": "HS8.201",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1535",
+      "ends": "1700",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Early Stage Funding for a Startup",
+      "code": "PD2.402",
+      "days": ["Monday", "Thursday"],
+      "starts": "1710",
+      "ends": "1840",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Readings from Hindi Literature",
+      "code": "HS1.401",
+      "days": ["Monday", "Thursday"],
+      "starts": "1710",
+      "ends": "1840",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Understanding Public and Digital History",
+      "code": "HS3.402",
+      "days": ["Monday", "Thursday"],
+      "starts": "1710",
+      "ends": "1840",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Statistical Methods in AI",
+      "code": "CS7.403",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1710",
+      "ends": "1840",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Mechanistic Interpretability of Language Models",
+      "code": "CL3.412",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1710",
+      "ends": "1840",
+      "half": null,
+      "classroom": ""
+    },
+    {
+      "name": "Introduction to UAV Design",
+      "code": "EC4.402",
+      "days": ["Tuesday", "Friday"],
+      "starts": "1710",
+      "ends": "1840",
+      "half": null,
+      "classroom": ""
     }
   ]
 }
